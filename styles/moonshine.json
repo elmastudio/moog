@@ -1,0 +1,270 @@
+{
+	"version": 2,
+	"title": "Moonshine",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#12151E",
+					"name": "Background Primary",
+					"slug": "background-primary"
+				},
+				{
+					"color": "#1F2434",
+					"name": "Background Secondary",
+					"slug": "background-secondary"
+				},
+				{
+					"color": "#06080B",
+					"name": "Background Tertiary",
+					"slug": "background-tertiary"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Text Primary",
+					"slug": "font-primary"
+				},
+				{
+					"color": "#B2B9CF",
+					"name": "Text Secondary",
+					"slug": "font-secondary"
+				},
+				{
+					"color": "#7F88A3",
+					"name": "Text Tertiary",
+					"slug": "font-tertiary"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Text on*",
+					"slug": "button-color-primary"
+				},
+				{
+					"color": "rgba(204, 217, 255, 0.2)",
+					"name": "Border Primary",
+					"slug": "border-primary"
+				},
+				{
+					"color": "rgba(204, 217, 255, 0.1)",
+					"name": "Border Secondary",
+					"slug": "border-secondary"
+				},
+				{
+					"color": "#5B53FF",
+					"name": "Brand Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#5237F9",
+					"name": "Brand Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "rgba(91, 83, 255, 0.2)",
+					"name": "Brand Tertiary",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#6369FF",
+					"name": "Brand Quarternary",
+					"slug": "quarternary"
+				},
+				{
+					"color": "#00B8B9",
+					"name": "Accent Primary",
+					"slug": "accent-primary"
+				},
+				{
+					"color": "#009D9E",
+					"name": "Accent Secondary",
+					"slug": "accent-secondary"
+				},
+				{
+					"color": "rgba(0, 184, 185, 0.2)",
+					"name": "Accent Tertiary",
+					"slug": "accent-tertiary"
+				},
+				{
+					"color": "#7BE8E9",
+					"name": "Accent Quarternary",
+					"slug": "accent-quarternary"
+				},
+				{
+					"color": "rgba(204, 217, 255, 0.8)",
+					"name": "Neutral Primary",
+					"slug": "neutral-primary"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Neutral Secondary",
+					"slug": "neutral-secondary"
+				},
+				{
+					"color": "rgba(204, 217, 255, 0.1)",
+					"name": "Neutral Tertiary",
+					"slug": "neutral-tertiary"
+				},
+				{
+					"color": "rgba(204, 217, 255, 0.2)",
+					"name": "Neutral Quarternary",
+					"slug": "neutral-quarternary"
+				},
+				{
+					"color": "#12151E",
+					"name": "Neutral Quinary",
+					"slug": "neutral-quinary"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Input Background",
+					"slug": "input-background"
+				},
+				{
+					"color": "rgba(204, 217, 255, 0.1)",
+					"name": "Input Border",
+					"slug": "input-border"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Rating Stars",
+					"slug": "rating-stars"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Variant Background Primary",
+					"slug": "variant-background-primary"
+				},
+				{
+					"color": "#F5F7FC",
+					"name": "Variant Background Secondary",
+					"slug": "variant-background-secondary"
+				},
+				{
+					"color": "#DCE0ED",
+					"name": "Variant Background Tertiary",
+					"slug": "variant-background-tertiary"
+				},
+				{
+					"color": "#12151E",
+					"name": "Variant Text Primary",
+					"slug": "variant-font-primary"
+				},
+				{
+					"color": "#2F364C",
+					"name": "Variant Text Secondary",
+					"slug": "variant-font-secondary"
+				},
+				{
+					"color": "#505A76",
+					"name": "Variant Text Tertiary",
+					"slug": "variant-font-tertiary"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Variant Text on*",
+					"slug": "variant-button-color-primary"
+				},
+				{
+					"color": "rgba(54, 85, 178, 0.2)",
+					"name": "Variant Border Primary",
+					"slug": "variant-border-primary"
+				},
+				{
+					"color": "rgba(54, 85, 178, 0.1)",
+					"name": "Variant Border Secondary",
+					"slug": "variant-border-secondary"
+				},
+				{
+					"color": "#665EFF",
+					"name": "Variant Brand Primary",
+					"slug": "variant-primary"
+				},
+				{
+					"color": "#5A41F9",
+					"name": "Variant Brand Secondary",
+					"slug": "variant-secondary"
+				},
+				{
+					"color": "rgba(102, 94, 255, 0.2)",
+					"name": "Variant Brand Tertiary",
+					"slug": "variant-tertiary"
+				},
+				{
+					"color": "#4E34E3",
+					"name": "Variant Brand Quarternary",
+					"slug": "variant-quarternary"
+				},
+				{
+					"color": "#0DB8B9",
+					"name": "Variant Accent Primary",
+					"slug": "variant-accent-primary"
+				},
+				{
+					"color": "#069D9E",
+					"name": "Variant Accent Secondary",
+					"slug": "variant-accent-secondary"
+				},
+				{
+					"color": "rgba(13, 184, 185, 0.2)",
+					"name": "Variant Accent Tertiary",
+					"slug": "variant-accent-tertiary"
+				},
+				{
+					"color": "#018587",
+					"name": "Variant Accent Quarternary",
+					"slug": "variant-accent-quarternary"
+				},
+				{
+					"color": "rgba(255, 255, 255, 0.8)",
+					"name": "Variant Neutral Primary",
+					"slug": "variant-neutral-primary"
+				},
+				{
+					"color": "#12151E",
+					"name": "Variant Neutral Secondary",
+					"slug": "variant-neutral-secondary"
+				},
+				{
+					"color": "rgba(54, 85, 178, 0.1)",
+					"name": "Variant Neutral Tertiary",
+					"slug": "variant-neutral-tertiary"
+				},
+				{
+					"color": "rgba(54, 85, 178, 0.2)",
+					"name": "Variant Neutral Quarternary",
+					"slug": "variant-neutral-quarternary"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Variant Neutral Quinary",
+					"slug": "variant-neutral-quinary"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Variant Input Background",
+					"slug": "variant-input-background"
+				},
+				{
+					"color": "rgba(54, 85, 178, 0.1)",
+					"name": "Variant Input Border",
+					"slug": "variant-input-border"
+				},
+				{
+					"color": "#12151E",
+					"name": "Variant Rating Stars",
+					"slug": "variant-rating-stars"
+				},
+				{
+					"color": "#12151E",
+					"name": "Base Dark",
+					"slug": "dark"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Base Light",
+					"slug": "light"
+				}
+			]
+		}
+	}
+}

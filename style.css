@@ -1,0 +1,20 @@
+/*
+Theme Name: Moog
+Theme URI:https://www.elmastudio.de/en/themes/moog
+Author: ElmaStudio
+Author URI: https://www.elmastudio.de/en/
+Description: A beautifully designed WordPress Masonry grid blog block theme.
+Requires at least: 6.2
+Tested up to: 6.2
+Requires PHP: 7.0
+Version: 1.0
+License: GPLv3 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+Text Domain: moog
+Tags: blog, block-styles, grid-layout, one-column, two-columns, three-columns, four-columns, featured-images, full-width-template, theme-options, custom-colors, custom-menu, custom-logo, editor-style, sticky-post, translation-ready, threaded-comments, wide-blocks, full-site-editing
+
+AinoBlocks Theme, (C) 2023 Elmastudio Ltd.
+This theme is distributed under the terms of the GNU GPL.
+*/
+
+/* Note: The CSS files are loaded from assets/build/css/ folder. */

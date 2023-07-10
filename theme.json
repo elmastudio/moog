@@ -1,0 +1,1056 @@
+{
+	"customTemplates": [
+		{
+			"name": "blank",
+			"postTypes": [
+				"page"
+			],
+			"title": "Blank"
+		},
+		{
+			"name": "page-home",
+			"title": "Landing Page",
+			"postTypes": [ "page" ]
+		},
+		{
+			"name": "header-footer-default",
+			"postTypes": [
+				"page",
+				"post"
+			],
+			"title": "Header and Footer Default"
+		},
+		{
+			"name": "header-footer-variant",
+			"postTypes": [
+				"page",
+				"post"
+			],
+			"title": "Header and Footer Variant"
+		},
+		{
+			"name": "post-no-featured-image",
+			"postTypes": [
+				"post"
+			],
+			"title": "Post no Featured Image"
+		},
+		{
+			"name": "post-no-featured-image-no-commet",
+			"postTypes": [
+				"post"
+			],
+			"title": "Post no Featured Image and No Comments"
+		},
+		{
+			"name": "post-no-comments",
+			"postTypes": [
+				"post"
+			],
+			"title": "Post no Comments"
+		}
+	],
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"custom": true,
+			"customGradient": true,
+			"defaultGradients": false,
+			"defaultPalette": false,
+			"gradients": [
+				{
+					"gradient": "linear-gradient(0deg,rgb(237, 221, 237) 0%, rgb(230, 196, 223) 21%,rgb(196, 165, 191) 50%, rgb(112, 93, 99) 100%)",
+					"name": "Light grayish magenta to very dark grayish pink",
+					"slug": "light-grayish-magenta-to-very-dark-grayish-pink"
+				},
+				{
+					"gradient": "linear-gradient(180deg, #E4E8F2 0%, #D5DAE7 100%)",
+					"name": "Light gray",
+					"slug": "light-gray"
+				},
+				{
+					"gradient": "linear-gradient(180deg, #FC856D 0%, #8952FD 50%, #5B53FF 100%)",
+					"name": "Orange Purple",
+					"slug": "orange-purple"
+				},
+				{
+					"gradient": "linear-gradient(180deg, #12151E 0%, #2F364C 100%)",
+					"name": "Dark",
+					"slug": "dark"
+				},
+				{
+					"gradient": "linear-gradient(180deg, #000000 0%, #31333F 100%)",
+					"name": "Darker",
+					"slug": "darker"
+				}
+			],
+			"palette": [
+				{
+					"color": "#F7F7F7",
+					"name": "Background Primary",
+					"slug": "background-primary"
+				},
+				{
+					"color": "#DEDEDE",
+					"name": "Background Secondary",
+					"slug": "background-secondary"
+				},
+				{
+					"color": "#DCE0ED",
+					"name": "Background Tertiary",
+					"slug": "background-tertiary"
+				},
+				{
+					"color": "#0F0F0F",
+					"name": "Text Primary",
+					"slug": "font-primary"
+				},
+				{
+					"color": "#0F0F0F",
+					"name": "Text Secondary",
+					"slug": "font-secondary"
+				},
+				{
+					"color": "#0F0F0F",
+					"name": "Text Tertiary",
+					"slug": "font-tertiary"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Text on*",
+					"slug": "button-color-primary"
+				},
+				{
+					"color": "rgba(54, 85, 178, 0.2)",
+					"name": "Border Primary",
+					"slug": "border-primary"
+				},
+				{
+					"color": "rgba(54, 85, 178, 0.1)",
+					"name": "Border Secondary",
+					"slug": "border-secondary"
+				},
+				{
+					"color": "#0060f0",
+					"name": "Brand Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#5A41F9",
+					"name": "Brand Secondary",
+					"slug": "secondary"
+				},
+				{
+					"color": "rgba(102, 94, 255, 0.2)",
+					"name": "Brand Tertiary",
+					"slug": "tertiary"
+				},
+				{
+					"color": "#4E34E3",
+					"name": "Brand Quarternary",
+					"slug": "quarternary"
+				},
+				{
+					"color": "#C75BFD",
+					"name": "Accent Primary",
+					"slug": "accent-primary"
+				},
+				{
+					"color": "#A334DA",
+					"name": "Accent Secondary",
+					"slug": "accent-secondary"
+				},
+				{
+					"color": "rgba(199, 91, 253, 0.2)",
+					"name": "Accent Tertiary",
+					"slug": "accent-tertiary"
+				},
+				{
+					"color": "#9A2DCC",
+					"name": "Accent Quarternary",
+					"slug": "accent-quarternary"
+				},
+				{
+					"color": "rgba(6, 12, 30, 0.8)",
+					"name": "Neutral Primary",
+					"slug": "neutral-primary"
+				},
+				{
+					"color": "#12151E",
+					"name": "Neutral Secondary",
+					"slug": "neutral-secondary"
+				},
+				{
+					"color": "rgba(54, 85, 178, 0.1)",
+					"name": "Neutral Tertiary",
+					"slug": "neutral-tertiary"
+				},
+				{
+					"color": "rgba(54, 85, 178, 0.2)",
+					"name": "Neutral Quarternary",
+					"slug": "neutral-quarternary"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Neutral Quinary",
+					"slug": "neutral-quinary"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Input Background",
+					"slug": "input-background"
+				},
+				{
+					"color": "rgba(54, 85, 178, 0.1)",
+					"name": "Input Border",
+					"slug": "input-border"
+				},
+				{
+					"color": "#12151E",
+					"name": "Rating Stars",
+					"slug": "rating-stars"
+				},
+				{
+					"color": "#12151E",
+					"name": "Variant Background Primary",
+					"slug": "variant-background-primary"
+				},
+				{
+					"color": "#1F2434",
+					"name": "Variant Background Secondary",
+					"slug": "variant-background-secondary"
+				},
+				{
+					"color": "#2F364C",
+					"name": "Variant Background Tertiary",
+					"slug": "variant-background-tertiary"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Variant Text Primary",
+					"slug": "variant-font-primary"
+				},
+				{
+					"color": "#B2B9CF",
+					"name": "Variant Text Secondary",
+					"slug": "variant-font-secondary"
+				},
+				{
+					"color": "#7F88A3",
+					"name": "Variant Text Tertiary",
+					"slug": "variant-font-tertiary"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Variant Text on*",
+					"slug": "variant-button-color-primary"
+				},
+				{
+					"color": "rgba(204, 217, 255, 0.2)",
+					"name": "Variant Border Primary",
+					"slug": "variant-border-primary"
+				},
+				{
+					"color": "rgba(204, 217, 255, 0.1)",
+					"name": "Variant Border Secondary",
+					"slug": "variant-border-secondary"
+				},
+				{
+					"color": "#5B53FF",
+					"name": "Variant Brand Primary",
+					"slug": "variant-primary"
+				},
+				{
+					"color": "#5237F9",
+					"name": "Variant Brand Secondary",
+					"slug": "variant-secondary"
+				},
+				{
+					"color": "rgba(91, 83, 255, 0.2)",
+					"name": "Variant Brand Tertiary",
+					"slug": "variant-tertiary"
+				},
+				{
+					"color": "#6369FF",
+					"name": "Variant Brand Quarternary",
+					"slug": "variant-quarternary"
+				},
+				{
+					"color": "#C452FD",
+					"name": "Variant Accent Primary",
+					"slug": "variant-accent-primary"
+				},
+				{
+					"color": "#A02CDA",
+					"name": "Variant Accent Secondary",
+					"slug": "variant-accent-secondary"
+				},
+				{
+					"color": "rgba(196, 82, 253, 0.2)",
+					"name": "Variant Accent Tertiary",
+					"slug": "variant-accent-tertiary"
+				},
+				{
+					"color": "#D278FF",
+					"name": "Variant Accent Quarternary",
+					"slug": "variant-accent-quarternary"
+				},
+				{
+					"color": "rgba(204, 217, 255, 0.8)",
+					"name": "Variant Neutral Primary",
+					"slug": "variant-neutral-primary"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Variant Neutral Secondary",
+					"slug": "variant-neutral-secondary"
+				},
+				{
+					"color": "rgba(204, 217, 255, 0.1)",
+					"name": "Variant Neutral Tertiary",
+					"slug": "variant-neutral-tertiary"
+				},
+				{
+					"color": "rgba(204, 217, 255, 0.2)",
+					"name": "Variant Neutral Quarternary",
+					"slug": "variant-neutral-quarternary"
+				},
+				{
+					"color": "#12151E",
+					"name": "Variant Neutral Quinary",
+					"slug": "variant-neutral-quinary"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Variant Input Background",
+					"slug": "variant-input-background"
+				},
+				{
+					"color": "rgba(204, 217, 255, 0.1)",
+					"name": "Variant Input Border",
+					"slug": "variant-input-border"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Variant Rating Stars",
+					"slug": "variant-rating-stars"
+				},
+				{
+					"color": "#12151E",
+					"name": "Base Dark",
+					"slug": "dark"
+				},
+				{
+					"color": "#FFFFFF",
+					"name": "Base Light",
+					"slug": "light"
+				}
+			]
+		},
+		"custom": {
+			"font-weight": {
+				"body": 400,
+				"heading": 500
+			},
+			"line-height": {
+				"body": 1.5,
+				"heading": 1.1
+			}
+		},
+		"layout": {
+			"contentSize": "47.5rem",
+			"wideSize": "84rem"
+		},
+		"spacing": {
+			"spacingScale": {
+				"steps": 0
+			},
+			"spacingSizes": [
+				{
+					"name": "4px",
+					"size": "clamp(0.125rem, 0.0746rem + 0.2193vw, 0.25rem)",
+					"slug": "1"
+				},
+				{
+					"name": "8px",
+					"size": "clamp(0.25rem, 0.1491rem + 0.4386vw, 0.5rem)",
+					"slug": "2"
+				},
+				{
+					"name": "12px",
+					"size": "clamp(0.375rem, 0.2237rem + 0.6579vw, 0.75rem)",
+					"slug": "3"
+				},
+				{
+					"name": "16px",
+					"size": "clamp(0.5rem, 0.2982rem + 0.8772vw, 1rem)",
+					"slug": "4"
+				},
+				{
+					"name": "20px",
+					"size": "clamp(1rem, 0.9167rem + 0.4167vw, 1.25rem)",
+					"slug": "5"
+				},
+				{
+					"name": "24px",
+					"size": "clamp(0.75rem, calc(0.38rem + 1.57vw), 1.5rem);",
+					"slug": "6"
+				},
+				{
+					"name": "32px",
+					"size": "clamp(1rem, 0.5965rem + 1.7544vw, 2rem)",
+					"slug": "7"
+				},
+				{
+					"name": "40px",
+					"size": "clamp(1.25rem, 0.7456rem + 2.193vw, 2.5rem)",
+					"slug": "8"
+				},
+				{
+					"name": "48px",
+					"size": "clamp(1.5rem, 0.8947rem + 2.6316vw, 3rem)",
+					"slug": "9"
+				},
+				{
+					"name": "64px",
+					"size": "clamp(2rem, 1.193rem + 3.5088vw, 4rem)",
+					"slug": "10"
+				},
+				{
+					"name": "80px",
+					"size": "clamp(2.5rem, 1.4912rem + 4.386vw, 5rem)",
+					"slug": "11"
+				},
+				{
+					"name": "96px",
+					"size": "clamp(3rem, 1.7895rem + 5.2632vw, 6rem)",
+					"slug": "12"
+				},
+				{
+					"name": "120px",
+					"size": "clamp(4rem, 2.5877rem + 6.1404vw, 7.5rem)",
+					"slug": "13"
+				},
+				{
+					"name": "144px",
+					"size": "clamp(5rem, 3.386rem + 7.0175vw, 9rem)",
+					"slug": "14"
+				},
+				{
+					"name": "176px",
+					"size": "clamp(6rem, 3.9825rem + 8.7719vw, 11rem)",
+					"slug": "15"
+				},
+				{
+					"name": "208px",
+					"size": "clamp(7.5rem, 5.2807rem + 9.6491vw, 13rem)",
+					"slug": "16"
+				},
+				{
+					"name": "248px",
+					"size": "clamp(9rem, 6.3772rem + 11.4035vw, 15.5rem)",
+					"slug": "17"
+				},
+				{
+					"name": "288px",
+					"size": "clamp(11rem, 8.1754rem + 12.2807vw, 18rem)",
+					"slug": "18"
+				}
+			],
+			"units": [
+				"px",
+				"em",
+				"rem",
+				"%",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"customFontSize": true,
+			"dropCap": false,
+			"fluid": true,
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "200 900",
+							"src": [
+								"file:./assets/fonts/inter/Inter-VariableFont.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Inter\", sans-serif",
+					"name": "Inter",
+					"slug": "inter"
+				},
+
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Source Serif Pro",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "200 900",
+							"src": [
+								"file:./assets/fonts/source-serif-four/SourceSerif4-VariableFont.woff2"
+							]
+						},
+						{
+							"fontFamily": "Source Serif Pro",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "200 900",
+							"src": [
+								"file:./assets/fonts/source-serif-four/SourceSerif4-Italic-VariableFont.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Source Serif Pro\", sans-serif",
+					"name": "Source Serif Pro",
+					"slug": "source-serif-pro"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Lora",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400 700",
+							"src": [
+								"file:./assets/fonts/lora/Lora-VariableFont_wght.woff2"
+							]
+						},
+						{
+							"fontFamily": "Lora",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "400 700",
+							"src": [
+								"file:./assets/fonts/lora/Lora-Italic-VariableFont_wght.woff2"
+							]
+						}
+					],
+					"fontFamily": "Lora, serif",
+					"name": "Lora",
+					"slug": "lora"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Work Sans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/work-sans/WorkSans-VariableFont.woff2"
+							]
+						},
+						{
+							"fontFamily": "Work Sans",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/work-sans/WorkSans-Italic-VariableFont.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Work Sans\", sans-serif",
+					"name": "Work Sans",
+					"slug": "work-sans"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Libre Franklin",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/libre-franklin/LibreFranklin-VariableFont.woff2"
+							]
+						},
+						{
+							"fontFamily": "Libre Franklin",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "100 900",
+							"src": [
+								"file:./assets/fonts/libre-franklin/LibreFranklin-Italic-VariableFont.woff2"
+							]
+						}
+					],
+					"fontFamily": "Libre Franklin",
+					"name": "Libre Franklin",
+					"slug": "libre-franklin"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Urbanist",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "200 900",
+							"src": [
+								"file:./assets/fonts/urbanist/Urbanist-VariableFont.woff2"
+							]
+						}
+					],
+					"fontFamily": "Urbanist",
+					"name": "Urbanist",
+					"slug": "urbanist"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Fraunces",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "200 900",
+							"src": [
+								"file:./assets/fonts/fraunces/Fraunces-VariableFont.woff2"
+							]
+						},
+						{
+							"fontFamily": "Fraunces",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "200 900",
+							"src": [
+								"file:./assets/fonts/fraunces/Fraunces-Italic-VariableFont.woff2"
+							]
+						}
+					],
+					"fontFamily": "Fraunces",
+					"name": "Fraunces",
+					"slug": "fraunces"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Ibarra Real Nova",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400 700",
+							"src": [
+								"file:./assets/fonts/ibarra-real-nova/IbarraRealNova-VariableFont.woff2"
+							]
+						},
+						{
+							"fontFamily": "Ibarra Real Nova",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "400 700",
+							"src": [
+								"file:./assets/fonts/ibarra-real-nova/IbarraRealNova-Italic-VariableFont.woff2"
+							]
+						}
+					],
+					"fontFamily": "Ibarra Real Nova",
+					"name": "Ibarra Real Nova",
+					"slug": "ibarra-real-nova"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "Open Sans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "300 800",
+							"src": [
+								"file:./assets/fonts/open-sans/OpenSans-VariableFont.woff2"
+							]
+						},
+						{
+							"fontFamily": "Open Sans",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "300 800",
+							"src": [
+								"file:./assets/fonts/open-sans/OpenSans-Italic-VariableFont.woff2"
+							]
+						}
+					],
+					"fontFamily": "Open Sans",
+					"name": "Open Sans",
+					"slug": "open-sans"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "DM Sans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/dm-sans/DMSans-Regular.woff2"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/dm-sans/DMSans-Medium.woff2"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/dm-sans/DMSans-Bold.woff2"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/dm-sans/DMSans-Italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/dm-sans/DMSans-MediumItalic.woff2"
+							]
+						},
+						{
+							"fontFamily": "DM Sans",
+							"fontStretch": "normal",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/dm-sans/DMSans-BoldItalic.woff2"
+							]
+						}
+					],
+					"fontFamily": "DM Sans",
+					"name": "DM Sans",
+					"slug": "dm-sans"
+				},
+				{
+					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif",
+					"name": "System",
+					"slug": "system"
+				},
+				{
+					"fontFamily": "\"Fira Code VF\", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, \"Liberation Mono\", \"Courier New\", monospace",
+					"name": "Monospace",
+					"slug": "monospace"
+				}
+			],
+			"fontSizes": [
+				{
+					"fluid": false,
+					"name": "3XS",
+					"size": "0.75rem",
+					"slug": "text-xxxs"
+				},
+				{
+					"fluid": false,
+					"name": "2XS",
+					"size": "0.875rem",
+					"slug": "text-xxs"
+				},
+				{
+					"fluid": false,
+					"name": "XS",
+					"size": "1rem",
+					"slug": "text-xs"
+				},
+				{
+					"fluid": false,
+					"name": "S",
+					"size": "1.125rem",
+					"slug": "text-s"
+				},
+				{
+					"fluid": false,
+					"name": "M",
+					"size": "1.25rem",
+					"slug": "text-m"
+				},
+				{
+					"fluid": {
+						"max": "1.5rem",
+						"min": "1.25rem"
+					},
+					"name": "L",
+					"size": "1.5rem",
+					"slug": "text-l"
+				},
+				{
+					"fluid": {
+						"max": "1.875rem",
+						"min": "1.5rem"
+					},
+					"name": "XL",
+					"size": "1.875rem",
+					"slug": "text-xl"
+				},
+				{
+					"fluid": {
+						"max": "2.25rem",
+						"min": "1.875rem"
+					},
+					"name": "XXL",
+					"size": "2.25rem",
+					"slug": "text-xxl"
+				},
+				{
+					"fluid": {
+						"max": "3rem",
+						"min": "2.25rem"
+					},
+					"name": "3XL",
+					"size": "3rem",
+					"slug": "text-xxxl"
+				},
+				{
+					"fluid": {
+						"max": "3.75rem",
+						"min": "2.25rem"
+					},
+					"name": "4XL",
+					"size": "3.75rem",
+					"slug": "text-4-xl"
+				},
+				{
+					"fluid": {
+						"max": "4.5rem",
+						"min": "2.25rem"
+					},
+					"name": "5XL",
+					"size": "4.5rem",
+					"slug": "text-5-xl"
+				},
+				{
+					"fluid": {
+						"max": "6rem",
+						"min": "3rem"
+					},
+					"name": "6XL",
+					"size": "6rem",
+					"slug": "text-6-xl"
+				},
+				{
+					"fluid": {
+						"max": "8rem",
+						"min": "3.75rem"
+					},
+					"name": "7XL",
+					"size": "8rem",
+					"slug": "text-7-xl"
+				},
+				{
+					"fluid": {
+						"max": "12rem",
+						"min": "4.5rem"
+					},
+					"name": "8XL",
+					"size": "12rem",
+					"slug": "text-8-xl"
+				},
+				{
+					"fluid": {
+						"max": "18.5rem",
+						"min": "6rem"
+					},
+					"name": "9XL",
+					"size": "18.5rem",
+					"slug": "text-9-xl"
+				}
+			]
+		},
+		"shadow": {
+			"palette": [
+				{
+					"name": "A",
+					"slug": "theme-a",
+					"shadow": "0px 8px 16px rgba(0, 0, 0, 0.05)"
+				},
+				{
+					"name": "B",
+					"slug": "theme-b",
+					"shadow": "0px 8px 16px rgba(0, 0, 0, 0.5)"
+				},
+				{
+					"name": "C",
+					"slug": "theme-c",
+					"shadow": "0px 24px 32px rgba(0, 0, 0, 0.1)" 
+				},
+				{
+					"name": "D",
+					"slug": "theme-d",
+					"shadow": "0px 24px 32px rgba(0, 0, 0, 0.5)"
+				},
+				{
+					"name": "E",
+					"slug": "theme-e",
+					"shadow": "0px 32px 96px rgba(0, 0, 0, 0.2)"
+				},
+				{
+					"name": "F",
+					"slug": "theme-f",
+					"shadow": "0px 32px 96px rgba(0, 0, 0, 0.5)"
+				},
+				{
+					"name": "G",
+					"slug": "theme-g",
+					"shadow": "0px 2px 4px -2px rgba(0, 0, 0, 0.05), 0px 4px 8px -2px rgba(0, 0, 0, 0.05)"
+				}
+			]
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"blocks": {
+			"core/column": {
+				"spacing": {
+					"blockGap": "1.5rem"
+				}
+			},
+			"core/post-content": {
+				"spacing": {
+					"blockGap": "var(--wp--preset--spacing--6)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--text-m)"
+				}
+			},
+			"core/preformatted": {
+				"color": {
+					"background": "var(--wp--preset--color--code-background)",
+					"text": "var(--wp--preset--color--code-color)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--monospace)",
+					"fontSize": "var(--wp--preset--font-size--text-s)"
+				}
+			},
+			"core/site-title": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--text-l)"
+				}
+			}
+		},
+		"elements": {
+			"h1": {
+				"color": {
+					"text": "var(--wp--preset--color--font-primary)",
+					"lineHeight": "var(--wp--custom--line-height--heading)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--text-xxxl)"
+				}
+			},
+			"h2": {
+				"color": {
+					"text": "var(--wp--preset--color--font-primary)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--text-xxl)",
+					"lineHeight": "var(--wp--custom--line-height--heading)"
+				}
+			},
+			"h3": {
+				"color": {
+					"text": "var(--wp--preset--color--font-primary)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--text-xl)",
+					"lineHeight": "var(--wp--custom--line-height--heading)"
+				}
+			},
+			"h4": {
+				"color": {
+					"text": "var(--wp--preset--color--font-primary)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--text-l)",
+					"lineHeight": "var(--wp--custom--line-height--heading)"
+				}
+			},
+			"h5": {
+				"color": {
+					"text": "var(--wp--preset--color--font-primary)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--text-m)",
+					"lineHeight": "var(--wp--custom--line-height--heading)"
+				}
+			},
+			"h6": {
+				"color": {
+					"text": "var(--wp--preset--color--font-primary)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--text-s)",
+					"lineHeight": "var(--wp--custom--line-height--heading)"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--lora)",
+					"fontWeight": "500"
+				}
+			}
+		},
+		"spacing": {
+			"blockGap": "0.0rem",
+			"padding": {
+				"bottom": "0px",
+				"left": "var(--wp--preset--spacing--9)",
+				"right": "var(--wp--preset--spacing--9)",
+				"top": "0px"
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--dm-sans)",
+			"fontSize": "var(--wp--preset--font-size--text-xs)",
+			"lineHeight": "var(--wp--custom--line-height--body)"
+		},
+		"color": {
+			"background": "var(--wp--preset--color--background-primary)",
+			"text": "var(--wp--preset--color--font-secondary)"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header-default"
+		},
+		{
+			"area": "header",
+			"name": "header-variant"
+		},
+		{
+			"area": "footer",
+			"name": "footer-default"
+		},
+		{
+			"area": "footer",
+			"name": "footer-variant"
+		}
+	],
+	"version": 2
+}
