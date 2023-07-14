@@ -1,6 +1,6 @@
 === Moog ===
 Contributors: elmastudio
-Tags: blog, block-styles, grid-layout, one-column, two-columns, three-columns, four-columns, featured-images, full-width-template, custom-colors, custom-menu, custom-logo, editor-style, sticky-post, translation-ready, threaded-comments, wide-blocks, full-site-editing, template-editing
+Tags: blog, block-styles, grid-layout, one-column, two-columns, three-columns, four-columns, featured-images, full-width-template, custom-colors, custom-menu, custom-logo, editor-style, sticky-post, translation-ready, threaded-comments, wide-blocks, full-site-editing, template-editing, style-variations
 Requires at least: 6.1
 Tested up to: WordPress 6.2
 Requires PHP: 7.0
