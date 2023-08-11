@@ -40,7 +40,7 @@ add_action( 'after_setup_theme', 'moog_support' );
  *
  * @return void
  */
-function moog_styles() {
+function moog_scripts() {
 
 	wp_enqueue_style(
 		'moog-style',
@@ -48,8 +48,11 @@ function moog_styles() {
 		[],
 		THEME_VERSION
 	);
+
+	wp_enqueue_script( 'theme-masonry', get_template_directory_uri() . '/assets/js/theme-masonry.js', array(), THEME_VERSION, false );
 }
-add_action( 'wp_enqueue_scripts', 'moog_styles' );
+add_action( 'wp_enqueue_scripts', 'moog_scripts' );
+
 
 /**
  * Register theme block styles.
@@ -66,7 +69,6 @@ function moog_register_pattern_categories() {
 	$block_pattern_categories = array(
 		'headers'       => array( 'label' => __( 'Headers' ) ),
 		'footers'       => array( 'label' => __( 'Footers' ) ),
-		'sidebars'      => array( 'label' => __( 'Sidebars' ) ),
 	);
 
 	$block_pattern_categories = apply_filters( 'moog_block_pattern_categories', $block_pattern_categories );
@@ -78,12 +80,6 @@ function moog_register_pattern_categories() {
 
 add_action( 'init', 'moog_register_pattern_categories' );
 
-/**
- * Include Woocommerce
- */
-if (class_exists('Woocommerce')) {
-	require get_template_directory() . '/inc/woocommerce/functions.php';
-}
 
 /**
  * TGMPA plugin activation.
