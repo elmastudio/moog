@@ -20,7 +20,7 @@
 					"slug": "text-tertiary"
 				},
 				{
-					"color": "#8CE9E2",
+					"color": "#0265DC",
 					"name": "Text Brand",
 					"slug": "text-brand"
 				},
@@ -40,9 +40,9 @@
 					"slug": "surface-primary"
 				},
 				{
-					"color": "#D9E7EB",
+					"color": "#ffffff",
 					"name": "Surface Secondary",
-					"slug": "surface-secondary"
+					"slug": "surface-Secondary"
 				},
 				{
 					"color": "#59A7F6",
@@ -70,12 +70,12 @@
 					"slug": "border-secondary"
 				},
 				{
-					"color": "rgba(0, 0, 0, 0.1)",
+					"color": "#ffffff",
 					"name": "Border Input",
-					"slug": "border-input"
+					"slug": "border-primary"
 				},
 				{
-					"color": "#0B0B0B",
+					"color": "#ffffff",
 					"name": "Variant Text Primary",
 					"slug": "variant-text-primary"
 				},
@@ -90,12 +90,12 @@
 					"slug": "variant-text-tertiary"
 				},
 				{
-					"color": "#8CE9E2",
-					"name": "Variant Text Brand",
-					"slug": "variant-text-brand"
+					"color": "#B5DEFF",
+					"name": "Variant Brand Text",
+					"slug": "variant-brand-text"
 				},
 				{
-					"color": "#EA3829",
+					"color": "#F75C46",
 					"name": "Variant Text Accent",
 					"slug": "variant-text-accent"
 				},
@@ -105,12 +105,12 @@
 					"slug": "variant-text-on"
 				},
 				{
-					"color": "#ffffff",
+					"color": "#292929",
 					"name": "Variant Surface Primary",
 					"slug": "variant-surface-primary"
 				},
 				{
-					"color": "#D9E7EB",
+					"color": "#454545",
 					"name": "Variant Surface Secondary",
 					"slug": "variant-surface-secondary"
 				},
@@ -125,22 +125,22 @@
 					"slug": "variant-surface-brand-secondary"
 				},
 				{
-					"color": "rgba(0, 0, 0, 0.05)",
+					"color": "rgba(204, 217, 255, 0.05)",
 					"name": "Variant Surface Input",
 					"slug": "variant-surface-input"
 				},
 				{
-					"color": "#ffffff",
+					"color": "#292929",
 					"name": "Variant Border Primary",
 					"slug": "variant-border-primary"
 				},
 				{
-					"color": "#B2B2B2",
+					"color": "#696969",
 					"name": "Variant Border Secondary",
 					"slug": "variant-border-secondary"
 				},
 				{
-					"color": "rgba(255, 255, 255, 0.1)",
+					"color": "#ffffff",
 					"name": "Variant Border Input",
 					"slug": "variant-border-input"
 				}
