@@ -70,6 +70,11 @@
 					"slug": "border-secondary"
 				},
 				{
+					"color": "rgba(0, 0, 0, 0.1)",
+					"name": "Border Input",
+					"slug": "border-input"
+				},
+				{
 					"color": "#0B0B0B",
 					"name": "Variant Text Primary",
 					"slug": "variant-text-primary"
@@ -133,6 +138,11 @@
 					"color": "#B2B2B2",
 					"name": "Variant Border Secondary",
 					"slug": "variant-border-secondary"
+				},
+				{
+					"color": "rgba(255, 255, 255, 0.1)",
+					"name": "Variant Border Input",
+					"slug": "variant-border-input"
 				}
 			]
 		}
