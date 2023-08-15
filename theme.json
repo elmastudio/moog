@@ -808,7 +808,7 @@
 		"elements": {
 			"h1": {
 				"color": {
-					"text": "var(--wp--preset--color--font-primary)"
+					"text": "var(--wp--preset--color--text-primary)"
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-5-xl)",
@@ -818,7 +818,7 @@
 			},
 			"h2": {
 				"color": {
-					"text": "var(--wp--preset--color--font-primary)"
+					"text": "var(--wp--preset--color--text-primary)"
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-4-xl)",
@@ -828,7 +828,7 @@
 			},
 			"h3": {
 				"color": {
-					"text": "var(--wp--preset--color--font-primary)"
+					"text": "var(--wp--preset--color--text-primary)"
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-xl)",
@@ -837,7 +837,7 @@
 			},
 			"h4": {
 				"color": {
-					"text": "var(--wp--preset--color--font-primary)"
+					"text": "var(--wp--preset--color--text-primary)"
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-l)",
@@ -846,7 +846,7 @@
 			},
 			"h5": {
 				"color": {
-					"text": "var(--wp--preset--color--font-primary)"
+					"text": "var(--wp--preset--color--text-primary)"
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-m)",
@@ -855,7 +855,7 @@
 			},
 			"h6": {
 				"color": {
-					"text": "var(--wp--preset--color--font-primary)"
+					"text": "var(--wp--preset--color--text-primary)"
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-s)",
@@ -884,18 +884,18 @@
 			"lineHeight": "var(--wp--custom--line-height--body)"
 		},
 		"color": {
-			"background": "var(--wp--preset--color--background-primary)",
-			"text": "var(--wp--preset--color--font-secondary)"
+			"background": "var(--wp--preset--color--surface-primary)",
+			"text": "var(--wp--preset--color--text-secondary)"
 		}
 	},
 	"templateParts": [
 		{
 			"area": "header",
-			"name": "header-default"
+			"name": "header"
 		},
 		{
 			"area": "footer",
-			"name": "footer-default"
+			"name": "footer"
 		}
 	],
 	"version": 2,
