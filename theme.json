@@ -83,7 +83,7 @@
 				},
 				{
 					"color": "#003571",
-					"name": "Text on*",
+					"name": "Text on",
 					"slug": "text-on"
 				},
 				{
@@ -92,9 +92,9 @@
 					"slug": "surface-primary"
 				},
 				{
-					"color": "#ffffff",
+					"color": "#EBEBEB",
 					"name": "Surface Secondary",
-					"slug": "surface-Secondary"
+					"slug": "surface-secondary"
 				},
 				{
 					"color": "#59A7F6",
@@ -122,9 +122,9 @@
 					"slug": "border-secondary"
 				},
 				{
-					"color": "#ffffff",
+					"color": "rgba(0, 0, 0, 0.10)",
 					"name": "Border Input",
-					"slug": "border-primary"
+					"slug": "border-input"
 				},
 				{
 					"color": "#ffffff",
@@ -132,19 +132,19 @@
 					"slug": "variant-text-primary"
 				},
 				{
-					"color": "#454545",
+					"color": "#EBEBEB",
 					"name": "Variant Text Secondary",
 					"slug": "variant-text-secondary"
 				},
 				{
-					"color": "rgba(0, 0, 0, 0.4)",
+					"color": "rgba(255, 255, 255, 0.4)",
 					"name": "Variant Text Tertiary",
 					"slug": "variant-text-tertiary"
 				},
 				{
 					"color": "#B5DEFF",
-					"name": "Variant Brand Text",
-					"slug": "variant-brand-text"
+					"name": "Variant Text Brand",
+					"slug": "variant-text-brand"
 				},
 				{
 					"color": "#F75C46",
@@ -152,8 +152,8 @@
 					"slug": "variant-text-accent"
 				},
 				{
-					"color": "#003571",
-					"name": "Variant Text on*",
+					"color": "#002754",
+					"name": "Variant Text on",
 					"slug": "variant-text-on"
 				},
 				{
@@ -167,17 +167,17 @@
 					"slug": "variant-surface-secondary"
 				},
 				{
-					"color": "#59A7F6",
+					"color": "#78BBFA",
 					"name": "Variant Surface Brand Primary",
 					"slug": "variant-surface-brand-primary"
 				},
 				{
-					"color": "#3892F3",
+					"color": "#96CEFD",
 					"name": "Variant Surface Brand Secondary",
 					"slug": "variant-surface-brand-secondary"
 				},
 				{
-					"color": "rgba(204, 217, 255, 0.05)",
+					"color": "rgba(255, 255, 255, 0.05)",
 					"name": "Variant Surface Input",
 					"slug": "variant-surface-input"
 				},
@@ -192,7 +192,7 @@
 					"slug": "variant-border-secondary"
 				},
 				{
-					"color": "#ffffff",
+					"color": "rgba(255, 255, 255, 0.1)",
 					"name": "Variant Border Input",
 					"slug": "variant-border-input"
 				}
