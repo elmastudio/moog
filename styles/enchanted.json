@@ -1,26 +1,26 @@
 {
 	"version": 2,
-	"title": "Firebrick",
+	"title": "Enchanted",
 	"settings": {
 		"color": {
 			"palette": [
 				{
-					"color": "#000000",
+					"color": "#491901",
 					"name": "Text Primary",
 					"slug": "text-primary"
 				},
 				{
-					"color": "#000000",
+					"color": "#491901",
 					"name": "Text Secondary",
 					"slug": "text-secondary"
 				},
 				{
-					"color": "#000000",
+					"color": "#491901",
 					"name": "Text Tertiary",
 					"slug": "text-tertiary"
 				},
 				{
-					"color": "#590000",
+					"color": "#491901",
 					"name": "Text Brand",
 					"slug": "text-brand"
 				},
@@ -35,22 +35,22 @@
 					"slug": "text-on"
 				},
 				{
-					"color": "#EA3829",
+					"color": "#F68511",
 					"name": "Surface Primary",
 					"slug": "surface-primary"
 				},
 				{
-					"color": "#EA3829",
+					"color": "#F68511",
 					"name": "Surface Secondary",
 					"slug": "surface-secondary"
 				},
 				{
-					"color": "#000000",
+					"color": "#491901",
 					"name": "Surface Brand Primary",
 					"slug": "surface-brand-primary"
 				},
 				{
-					"color": "#000000",
+					"color": "#7A2F00",
 					"name": "Surface Brand Secondary",
 					"slug": "surface-brand-secondary"
 				},
@@ -60,87 +60,87 @@
 					"slug": "surface-input"
 				},
 				{
-					"color": "#000000",
+					"color": "#491901",
 					"name": "Border Primary",
 					"slug": "border-primary"
 				},
 				{
-					"color": "#000000",
+					"color": "#491901",
 					"name": "Border Secondary",
 					"slug": "border-secondary"
 				},
 				{
-					"color": "#000000",
+					"color": "#491901",
 					"name": "Border Input",
 					"slug": "border-input"
 				},
                 {
-					"color": "#000000",
+					"color": "#FFECCC",
 					"name": "Variant Text Primary",
 					"slug": "variant-text-primary"
 				},
 				{
-					"color": "#000000",
+					"color": "#FFECCC",
 					"name": "Variant Text Secondary",
 					"slug": "variant-text-secondary"
 				},
 				{
-					"color": "#000000",
+					"color": "#FFECCC",
 					"name": "Variant Text Tertiary",
 					"slug": "variant-text-tertiary"
 				},
 				{
-					"color": "#000000",
+					"color": "#FFECCC",
 					"name": "Variant Text Brand",
 					"slug": "variant-text-brand"
 				},
 				{
-					"color": "#EA3829",
+					"color": "#FFA037",
 					"name": "Variant Text Accent",
 					"slug": "variant-text-accent"
 				},
 				{
-					"color": "#FFFFFF",
+					"color": "#491901",
 					"name": "Variant Text on",
 					"slug": "variant-text-on"
 				},
 				{
-					"color": "#FFFFFF",
+					"color": "#491901",
 					"name": "Variant Surface Primary",
 					"slug": "variant-surface-primary"
 				},
 				{
-					"color": "#FFFFFF",
+					"color": "#491901",
 					"name": "Variant Surface Secondary",
 					"slug": "variant-surface-secondary"
 				},
 				{
-					"color": "#000000",
+					"color": "#FFECCC",
 					"name": "Variant Surface Brand Primary",
 					"slug": "variant-surface-brand-primary"
 				},
 				{
-					"color": "#000000",
+					"color": "#FFECCC",
 					"name": "Variant Surface Brand Secondary",
 					"slug": "variant-surface-brand-secondary"
 				},
 				{
-					"color": "rgba(0, 0, 0, 0.00)",
+					"color": "rgba(255, 255, 255, 0.00)",
 					"name": "Variant Surface Input",
 					"slug": "variant-surface-input"
 				},
 				{
-					"color": "#000000",
+					"color": "#FFECCC",
 					"name": "Variant Border Primary",
 					"slug": "variant-border-primary"
 				},
 				{
-					"color": "#000000",
+					"color": "#FFECCC",
 					"name": "Variant Border Secondary",
 					"slug": "variant-border-secondary"
 				},
 				{
-					"color": "#000000",
+					"color": "#FFECCC",
 					"name": "Variant Border Input",
 					"slug": "variant-border-input"
 				}

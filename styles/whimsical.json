@@ -1,6 +1,6 @@
 {
 	"version": 2,
-	"title": "Firebrick",
+	"title": "Whimsical",
 	"settings": {
 		"color": {
 			"palette": [
@@ -20,12 +20,12 @@
 					"slug": "text-tertiary"
 				},
 				{
-					"color": "#590000",
+					"color": "#000000",
 					"name": "Text Brand",
 					"slug": "text-brand"
 				},
 				{
-					"color": "#FFFFFF",
+					"color": "#EA3829",
 					"name": "Text Accent",
 					"slug": "text-accent"
 				},
@@ -35,12 +35,12 @@
 					"slug": "text-on"
 				},
 				{
-					"color": "#EA3829",
+					"color": "#FFFFFF",
 					"name": "Surface Primary",
 					"slug": "surface-primary"
 				},
 				{
-					"color": "#EA3829",
+					"color": "#FFFFFF",
 					"name": "Surface Secondary",
 					"slug": "surface-secondary"
 				},
@@ -55,7 +55,7 @@
 					"slug": "surface-brand-secondary"
 				},
 				{
-					"color": "rgba(255, 255, 255, 0.00)",
+					"color": "rgba(0, 0, 0, 0.00)",
 					"name": "Surface Input",
 					"slug": "surface-input"
 				},
@@ -74,7 +74,7 @@
 					"name": "Border Input",
 					"slug": "border-input"
 				},
-                {
+				{
 					"color": "#000000",
 					"name": "Variant Text Primary",
 					"slug": "variant-text-primary"
@@ -90,12 +90,12 @@
 					"slug": "variant-text-tertiary"
 				},
 				{
-					"color": "#000000",
+					"color": "#590000",
 					"name": "Variant Text Brand",
 					"slug": "variant-text-brand"
 				},
 				{
-					"color": "#EA3829",
+					"color": "#FFFFFF",
 					"name": "Variant Text Accent",
 					"slug": "variant-text-accent"
 				},
@@ -105,12 +105,12 @@
 					"slug": "variant-text-on"
 				},
 				{
-					"color": "#FFFFFF",
+					"color": "#EA3829",
 					"name": "Variant Surface Primary",
 					"slug": "variant-surface-primary"
 				},
 				{
-					"color": "#FFFFFF",
+					"color": "#EA3829",
 					"name": "Variant Surface Secondary",
 					"slug": "variant-surface-secondary"
 				},
@@ -125,7 +125,7 @@
 					"slug": "variant-surface-brand-secondary"
 				},
 				{
-					"color": "rgba(0, 0, 0, 0.00)",
+					"color": "rgba(255, 255, 255, 0.00)",
 					"name": "Variant Surface Input",
 					"slug": "variant-surface-input"
 				},
