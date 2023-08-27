@@ -15,7 +15,7 @@
 					"slug": "text-secondary"
 				},
 				{
-					"color": "#491901",
+					"color": "rgba(73, 25, 1, 0.6)",
 					"name": "Text Tertiary",
 					"slug": "text-tertiary"
 				},
@@ -85,7 +85,7 @@
 					"slug": "variant-text-secondary"
 				},
 				{
-					"color": "#FFECCC",
+					"color": "rgba(255, 236, 204, 0.6)",
 					"name": "Variant Text Tertiary",
 					"slug": "variant-text-tertiary"
 				},

@@ -1,146 +1,146 @@
 {
 	"version": 2,
-	"title": "Sleek",
+	"title": "Enigmatic",
 	"settings": {
 		"color": {
 			"palette": [
 				{
-					"color": "#FFFFFF",
+					"color": "#33106A",
 					"name": "Text Primary",
 					"slug": "text-primary"
 				},
 				{
-					"color": "#FFFFFF",
+					"color": "#33106A",
 					"name": "Text Secondary",
 					"slug": "text-secondary"
 				},
 				{
-					"color": "rgba(255, 255, 255, 0.6)",
+					"color": "rgba(51, 16, 106, 0.6)",
 					"name": "Text Tertiary",
 					"slug": "text-tertiary"
 				},
 				{
-					"color": "#FFFFFF",
+					"color": "#88E7FA",
 					"name": "Text Brand",
 					"slug": "text-brand"
 				},
 				{
-					"color": "#686DF4",
+					"color": "#FFFFFF",
 					"name": "Text Accent",
 					"slug": "text-accent"
 				},
 				{
-					"color": "#1B1E64",
+					"color": "#33106A",
 					"name": "Text on",
 					"slug": "text-on"
 				},
 				{
-					"color": "#3236A8",
+					"color": "#FFB2CE",
 					"name": "Surface Primary",
 					"slug": "surface-primary"
 				},
 				{
-					"color": "#3236A8",
+					"color": "#BD8BFC",
 					"name": "Surface Secondary",
 					"slug": "surface-secondary"
 				},
 				{
-					"color": "#FFFFFF",
+					"color": "#88E7FA",
 					"name": "Surface Brand Primary",
 					"slug": "surface-brand-primary"
 				},
 				{
-					"color": "#FFFFFF",
+					"color": "#33C5E8",
 					"name": "Surface Brand Secondary",
 					"slug": "surface-brand-secondary"
 				},
 				{
-					"color": "rgba(255, 255, 255, 0.00)",
+					"color": "#FFFFFF",
 					"name": "Surface Input",
 					"slug": "surface-input"
 				},
 				{
-					"color": "#FFFFFF",
+					"color": "#33106A",
 					"name": "Border Primary",
 					"slug": "border-primary"
 				},
 				{
-					"color": "#FFFFFF",
+					"color": "#33106A",
 					"name": "Border Secondary",
 					"slug": "border-secondary"
 				},
 				{
-					"color": "#FFFFFF",
+					"color": "#33106A",
 					"name": "Border Input",
 					"slug": "border-input"
 				},
-                {
-					"color": "#1B1E64",
+				{
+					"color": "#33106A",
 					"name": "Variant Text Primary",
 					"slug": "variant-text-primary"
 				},
 				{
-					"color": "#1B1E64",
+					"color": "#33106A",
 					"name": "Variant Text Secondary",
 					"slug": "variant-text-secondary"
 				},
 				{
-					"color": "rgba(27, 30, 100, 0.6)",
+					"color": "rgba(51, 16, 106, 0.6)",
 					"name": "Variant Text Tertiary",
 					"slug": "variant-text-tertiary"
 				},
 				{
-					"color": "#5258E4",
+					"color": "#88E7FA",
 					"name": "Variant Text Brand",
 					"slug": "variant-text-brand"
 				},
 				{
-					"color": "#5258E4",
+					"color": "#FFFFFF",
 					"name": "Variant Text Accent",
 					"slug": "variant-text-accent"
 				},
 				{
-					"color": "#FFFFFF",
+					"color": "#33106A",
 					"name": "Variant Text on",
 					"slug": "variant-text-on"
 				},
 				{
-					"color": "#D3D5FF",
+					"color": "#BD8BFC",
 					"name": "Variant Surface Primary",
 					"slug": "variant-surface-primary"
 				},
 				{
-					"color": "#D3D5FF",
+					"color": "#FFB2CE",
 					"name": "Variant Surface Secondary",
 					"slug": "variant-surface-secondary"
 				},
 				{
-					"color": "#1B1E64",
+					"color": "#88E7FA",
 					"name": "Variant Surface Brand Primary",
 					"slug": "variant-surface-brand-primary"
 				},
 				{
-					"color": "#3236A8",
+					"color": "#33C5E8",
 					"name": "Variant Surface Brand Secondary",
 					"slug": "variant-surface-brand-secondary"
 				},
 				{
-					"color": "rgba(0, 0, 0, 0.00)",
+					"color": "#FFFFFF",
 					"name": "Variant Surface Input",
 					"slug": "variant-surface-input"
 				},
 				{
-					"color": "#1B1E64",
+					"color": "#33106A",
 					"name": "Variant Border Primary",
 					"slug": "variant-border-primary"
 				},
 				{
-					"color": "#1B1E64",
+					"color": "#33106A",
 					"name": "Variant Border Secondary",
 					"slug": "variant-border-secondary"
 				},
 				{
-					"color": "#1B1E64",
+					"color": "#33106A",
 					"name": "Variant Border Input",
 					"slug": "variant-border-input"
 				}
