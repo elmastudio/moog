@@ -50,7 +50,7 @@
 					"slug": "surface-brand-primary"
 				},
 				{
-					"color": "#EF5A98",
+					"color": "#FFB2CE",
 					"name": "Surface Brand Secondary",
 					"slug": "surface-brand-secondary"
 				},
@@ -74,7 +74,7 @@
 					"name": "Border Input",
 					"slug": "border-input"
 				},
-                {
+				{
 					"color": "#000000",
 					"name": "Variant Text Primary",
 					"slug": "variant-text-primary"
@@ -120,7 +120,7 @@
 					"slug": "variant-surface-brand-primary"
 				},
 				{
-					"color": "#000000",
+					"color": "rgba(0, 0, 0, 0.8)",
 					"name": "Variant Surface Brand Secondary",
 					"slug": "variant-surface-brand-secondary"
 				},
