@@ -28,33 +28,6 @@
 			"customGradient": true,
 			"defaultGradients": false,
 			"defaultPalette": false,
-			"gradients": [
-				{
-					"gradient": "linear-gradient(0deg,rgb(237, 221, 237) 0%, rgb(230, 196, 223) 21%,rgb(196, 165, 191) 50%, rgb(112, 93, 99) 100%)",
-					"name": "Light grayish magenta to very dark grayish pink",
-					"slug": "light-grayish-magenta-to-very-dark-grayish-pink"
-				},
-				{
-					"gradient": "linear-gradient(180deg, #E4E8F2 0%, #D5DAE7 100%)",
-					"name": "Light gray",
-					"slug": "light-gray"
-				},
-				{
-					"gradient": "linear-gradient(180deg, #FC856D 0%, #8952FD 50%, #5B53FF 100%)",
-					"name": "Orange Purple",
-					"slug": "orange-purple"
-				},
-				{
-					"gradient": "linear-gradient(180deg, #12151E 0%, #2F364C 100%)",
-					"name": "Dark",
-					"slug": "dark"
-				},
-				{
-					"gradient": "linear-gradient(180deg, #000000 0%, #31333F 100%)",
-					"name": "Darker",
-					"slug": "darker"
-				}
-			],
 			"palette": [
 				{
 					"color": "#0B0B0B",
@@ -210,7 +183,7 @@
 		},
 		"layout": {
 			"contentSize": "45rem",
-			"wideSize": "84rem"
+			"wideSize": "102.5rem"
 		},
 		"spacing": {
 			"spacingScale": {
