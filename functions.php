@@ -48,16 +48,8 @@ function moog_scripts() {
 		[],
 		THEME_VERSION
 	);
-
-	wp_enqueue_script( 'theme-masonry', get_template_directory_uri() . '/assets/js/theme-masonry.js', array(), THEME_VERSION, false );
 }
 add_action( 'wp_enqueue_scripts', 'moog_scripts' );
-
-
-/**
- * Register theme block styles.
- */
-require get_template_directory() . '/inc/block-styles.php';
 
 /**
  * Registers pattern categories.
