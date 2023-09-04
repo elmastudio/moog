@@ -227,8 +227,8 @@
 			},
 			"heading": {
 				"typography": {
-					"fontFamily": "var(--wp--preset--font-family--inter)",
-					"fontWeight": "600"
+					"fontFamily": "var(--wp--preset--font-family--dm-sans)",
+					"fontWeight": "500"
 				}
 			}
 		},
