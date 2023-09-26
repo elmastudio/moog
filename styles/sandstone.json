@@ -55,6 +55,11 @@
 					"slug": "surface-brand-secondary"
 				},
 				{
+					"color": "#9D57F4",
+					"name": "Surface Accent",
+					"slug": "surface-accent"
+				},
+				{
 					"color": "#FFFFFF",
 					"name": "Surface Input",
 					"slug": "surface-input"
@@ -123,6 +128,11 @@
 					"color": "#BD8BFC",
 					"name": "Variant Surface Brand Secondary",
 					"slug": "variant-surface-brand-secondary"
+				},
+				{
+					"color": "#9D57F4",
+					"name": "Variant Surface Accent",
+					"slug": "variant-surface-accent"
 				},
 				{
 					"color": "#FFFFFF",
