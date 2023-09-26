@@ -78,15 +78,6 @@ Copyright 2011 The Lora Project Authors
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://github.com/cyrealtype/Lora-Cyrillic
 
-TGM-Plugin-Activation (Recommended plugin admin info)
-Copyright Thomas Griffin
-License: GPLv2 or later, http://www.gnu.org/licenses/gpl-2.0.html
-Source: http://tgmpluginactivation.com
-
-Merlin WP (Demo Import)
-Copyright Rich Tabor
-License: GPLv3 or later, https://www.gnu.org/licenses/gpl-3.0.html
-Source: https://github.com/richtabor/MerlinWP
 
 == Changelog ==
 
