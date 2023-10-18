@@ -92,3 +92,12 @@ Source: https://github.com/richtabor/MerlinWP
 
 = 1.0 =
 * Released: , 2023
+
+=== Images ===
+License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
+
+avatar-person-1.jpg - https://openverse.org/image/a9220858-8614-4f20-a3f4-c306317801f3
+avatar-person-2.jpg - https://openverse.org/image/9722b4be-1e30-4482-88b7-3a72663b106d?q=daikanyama
+light-and-shadow.jpg - https://openverse.org/image/b1b46fd0-6c86-48a1-8fee-102e128bf964
+girl-with-camera.jpg - https://openverse.org/image/9dfbb904-7ab5-41b4-b33e-06ce56c8b3db?q=blackandwhite%20japan%20urban
+roppongi-hills.jpg - https://openverse.org/image/8a52a0d5-e6b7-45c3-9095-9d82fd1cb708?q=blackandwhite%20japan%20urban
