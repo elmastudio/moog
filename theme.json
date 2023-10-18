@@ -1,26 +1,6 @@
 {
-	"customTemplates": [
-		{
-			"name": "blank",
-			"postTypes": [
-				"page"
-			],
-			"title": "Blank"
-		},
-		{
-			"name": "page-home",
-			"title": "Home Page",
-			"postTypes": [ "page" ]
-		},
-		{
-			"name": "header-footer",
-			"postTypes": [
-				"page",
-				"post"
-			],
-			"title": "Header and Footer"
-		}
-	],
+	"version": 2,
+	"$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/theme.json",
 	"settings": {
 		"appearanceTools": true,
 		"color": {
@@ -28,6 +8,14 @@
 			"customGradient": true,
 			"defaultGradients": false,
 			"defaultPalette": false,
+			"defaultDuotone": false,
+			"duotone": [
+				{
+					"colors": ["#111111", "#ffffff"],
+					"slug": "duotone-1",
+					"name": "Black and white"
+				}
+			],
 			"palette": [
 				{
 					"color": "#0B0B0B",
@@ -277,14 +265,7 @@
 					"slug": "18"
 				}
 			],
-			"units": [
-				"px",
-				"em",
-				"rem",
-				"%",
-				"vh",
-				"vw"
-			]
+			"units": ["%", "px", "em", "rem", "vh", "vw"]
 		},
 		"typography": {
 			"customFontSize": true,
@@ -692,46 +673,8 @@
 					"size": "18.5rem",
 					"slug": "text-9-xl"
 				}
-			]
-		},
-		"shadow": {
-			"presets": [
-				{
-					"name": "A",
-					"slug": "theme-a",
-					"shadow": "0px 8px 16px rgba(0, 0, 0, 0.05)"
-				},
-				{
-					"name": "B",
-					"slug": "theme-b",
-					"shadow": "0px 8px 16px rgba(0, 0, 0, 0.5)"
-				},
-				{
-					"name": "C",
-					"slug": "theme-c",
-					"shadow": "0px 24px 32px rgba(0, 0, 0, 0.1)" 
-				},
-				{
-					"name": "D",
-					"slug": "theme-d",
-					"shadow": "0px 24px 32px rgba(0, 0, 0, 0.5)"
-				},
-				{
-					"name": "E",
-					"slug": "theme-e",
-					"shadow": "0px 32px 96px rgba(0, 0, 0, 0.2)"
-				},
-				{
-					"name": "F",
-					"slug": "theme-f",
-					"shadow": "0px 32px 96px rgba(0, 0, 0, 0.5)"
-				},
-				{
-					"name": "G",
-					"slug": "theme-g",
-					"shadow": "0px 2px 4px -2px rgba(0, 0, 0, 0.05), 0px 4px 8px -2px rgba(0, 0, 0, 0.05)"
-				}
-			]
+			],
+			"writingMode": true
 		},
 		"useRootPaddingAwareAlignments": true
 	},
@@ -792,7 +735,7 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-4-xl)",
 					"lineHeight": "var(--wp--custom--line-height--heading)",
-					"letterSpacing":"-2.75px"
+					"letterSpacing":"-3.25px"
 				}
 			},
 			"h3": {
@@ -868,6 +811,26 @@
 			"name": "footer"
 		}
 	],
-	"version": 2,
-	"$schema": "https://raw.githubusercontent.com/WordPress/gutenberg/trunk/schemas/json/theme.json"
+	"customTemplates": [
+		{
+			"name": "blank",
+			"postTypes": [
+				"page"
+			],
+			"title": "Blank"
+		},
+		{
+			"name": "page-home",
+			"title": "Home Page",
+			"postTypes": [ "page" ]
+		},
+		{
+			"name": "header-footer",
+			"postTypes": [
+				"page",
+				"post"
+			],
+			"title": "Header and Footer"
+		}
+	]
 }
