@@ -4,16 +4,9 @@
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package moog
+ * @package Moog
  * @since 1.0
  */
- 
-/**
- * The theme version.
- *
- * @since 1.0
- */
-define( 'THEME_VERSION', wp_get_theme()->get( 'Version' ) );
 
 /**
  * Add theme support for block styles and editor style.
@@ -34,22 +27,32 @@ function moog_support() {
 add_action( 'after_setup_theme', 'moog_support' );
 
 /**
- * Enqueue the CSS files.
- *
- * @since 1.0
- *
- * @return void
+ * Enqueue style.css file.
  */
-function moog_scripts() {
+if ( ! function_exists( 'moog_styles' ) ) :
 
-	wp_enqueue_style(
-		'moog-style',
-		get_template_directory_uri() . '/assets/build/css/style.css',
-		[],
-		THEME_VERSION
-	);
-}
-add_action( 'wp_enqueue_scripts', 'moog_scripts' );
+	/**
+	 * Enqueue styles.
+	 *
+	 * @return void
+	 */
+	function moog_styles() {
+
+		// Register theme stylesheet.
+		wp_register_style(
+			'moog-style',
+			get_stylesheet_directory_uri() . '/assets/build/css/style.css',
+			array(),
+			wp_get_theme()->get( 'Version' )
+		);
+
+		// Enqueue theme stylesheet.
+		wp_enqueue_style( 'moog-style' );
+	}
+
+endif;
+
+add_action( 'wp_enqueue_scripts', 'moog_styles' );
 
 /**
  * Registers pattern categories.
@@ -59,8 +62,9 @@ add_action( 'wp_enqueue_scripts', 'moog_scripts' );
 function moog_register_pattern_categories() {
 
 	$block_pattern_categories = array(
-		'headers'       => array( 'label' => __( 'Headers' ) ),
-		'footers'       => array( 'label' => __( 'Footers' ) ),
+		'headers'       => array( 'label' => __( 'Headers', 'moog' ) ),
+		'footers'       => array( 'label' => __( 'Footers', 'moog' ) ),
+		'pages'         => array( 'label' => __( 'Pages', 'moog' ) ),
 	);
 
 	$block_pattern_categories = apply_filters( 'moog_block_pattern_categories', $block_pattern_categories );

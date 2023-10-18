@@ -1,14 +1,9 @@
 <?php
 /**
  * Title: Theme Footer
- * Slug: theme/footer
- * Description: 
+ * Slug: moog/footer
  * Categories: footers
- * Keywords: 
- * Viewport Width: 1280
  * Block Types: core/template-part/footer
- * Post Types: wp_template
- * Inserter: true
  */
 ?>
 
