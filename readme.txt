@@ -101,3 +101,4 @@ avatar-person-2.jpg - https://openverse.org/image/9722b4be-1e30-4482-88b7-3a7266
 light-and-shadow.jpg - https://openverse.org/image/b1b46fd0-6c86-48a1-8fee-102e128bf964
 girl-with-camera.jpg - https://openverse.org/image/9dfbb904-7ab5-41b4-b33e-06ce56c8b3db?q=blackandwhite%20japan%20urban
 roppongi-hills.jpg - https://openverse.org/image/8a52a0d5-e6b7-45c3-9095-9d82fd1cb708?q=blackandwhite%20japan%20urban
+thunder-robot.jpg - https://openverse.org/image/0851f936-f4f0-4c31-80de-35f2c07daae7?q=robot
