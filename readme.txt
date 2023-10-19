@@ -2,19 +2,18 @@
 Contributors: elmastudio, manuelesposito
 Tags: blog, block-styles, grid-layout, one-column, two-columns, three-columns, four-columns, featured-images, full-width-template, custom-colors, custom-menu, custom-logo, editor-style, sticky-post, translation-ready, threaded-comments, wide-blocks, full-site-editing, template-editing, style-variations
 Requires at least: 6.1
-Tested up to: WordPress 6.2
+Tested up to: WordPress 6.4
 Requires PHP: 7.0
-Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A beautifully designed WordPress Masonry grid blog block theme.
+A beautifully designed minimal WordPress Masonry grid blog block theme.
 
 == Description ==
 
 A beautifully designed WordPress Masonry grid blog block theme.
 
-You can find more information and helpful resources about this theme on https://ainoblocks.io.
+You can find more information and helpful resources about this theme on https://elmastudio.de/en/.
 
 == Copyright ==
 
@@ -82,7 +81,7 @@ Source: https://github.com/cyrealtype/Lora-Cyrillic
 == Changelog ==
 
 = 1.0 =
-* Released: , 2023
+* Released: October, 2023
 
 === Images ===
 License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
