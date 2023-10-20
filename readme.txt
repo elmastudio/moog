@@ -80,7 +80,7 @@ Source: https://github.com/cyrealtype/Lora-Cyrillic
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.1 =
 * Released: October, 2023
 
 === Images ===
