@@ -20,7 +20,10 @@
 <!-- /wp:separator -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|9","padding":{"top":"var:preset|spacing|9","bottom":"var:preset|spacing|9","left":"var:preset|spacing|9","right":"var:preset|spacing|9"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--9);padding-right:var(--wp--preset--spacing--9);padding-bottom:var(--wp--preset--spacing--9);padding-left:var(--wp--preset--spacing--9)"><!-- wp:social-links {"iconColor":"font-primary","iconColorValue":"#0B0B0B","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|9"}}},"className":"is-style-logos-only size-m","layout":{"type":"flex","justifyContent":"center"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--9);padding-right:var(--wp--preset--spacing--9);padding-bottom:var(--wp--preset--spacing--9);padding-left:var(--wp--preset--spacing--9)">
+
+
+<!-- wp:social-links {"iconColor":"font-primary","iconColorValue":"#0B0B0B","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|9"}}},"className":"is-style-logos-only size-m","layout":{"type":"flex","justifyContent":"center"}} -->
 <ul class="wp-block-social-links has-icon-color is-style-logos-only size-m"><!-- wp:social-link {"url":"#","service":"wordpress"} /-->
 
 <!-- wp:social-link {"url":"https://twitter.com/ellenbauer","service":"twitter"} /-->
