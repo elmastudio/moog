@@ -680,11 +680,6 @@
 	},
 	"styles": {
 		"blocks": {
-			"core/paragraph": {
-				"typography": {
-					"writingMode": "vertical-rl"
-				}
-			},
 			"core/button": {
 				"spacing": {
 					"padding": {
@@ -853,23 +848,13 @@
 	"customTemplates": [
 		{
 			"name": "blank",
-			"postTypes": [
-				"page"
-			],
-			"title": "Blank"
+			"postTypes": ["page"],
+			"title": "Page Blank"
 		},
 		{
-			"name": "page-home",
-			"title": "Home Page",
-			"postTypes": [ "page" ]
-		},
-		{
-			"name": "header-footer",
-			"postTypes": [
-				"page",
-				"post"
-			],
-			"title": "Header and Footer"
+			"name": "page-no-title",
+			"postTypes": ["page"],
+			"title": "Page No Title"
 		}
 	]
 }
