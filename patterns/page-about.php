@@ -10,4 +10,4 @@
 ?>
 
 <!-- wp:pattern {"slug":"moog/team-info"} /-->
-<!-- wp:pattern {"slug":"moog/image-gallery"} /-->
+<!-- wp:pattern {"slug":"moog/2-columns-gallery"} /-->
