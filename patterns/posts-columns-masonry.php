@@ -27,6 +27,7 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 <!-- /wp:post-template -->
+
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|10"}}},"className":"pagination-wrap"} -->
 <div class="wp-block-group pagination-wrap" style="padding-top:var(--wp--preset--spacing--10)"><!-- wp:query-pagination {"paginationArrow":"arrow","showLabel":false} -->
 <!-- wp:query-pagination-previous {"label":"Previous Page","fontSize":"text-xs"} /-->
@@ -35,5 +36,5 @@
 
 <!-- wp:query-pagination-next {"label":"Next Page","fontSize":"text-xs"} /-->
 <!-- /wp:query-pagination --></div>
-<!-- /wp:group -->
+<!-- /wp:group --></div>
 <!-- /wp:query -->

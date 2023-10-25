@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Image Gallery
- * Slug: moog/image-gallery
+ * Slug: moog/2-columns-gallery
  * Categories: about, gallery
  * Viewport width: 1640
  */
@@ -21,19 +21,24 @@
 
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|9"},"padding":{"bottom":"var:preset|spacing|12","top":"var:preset|spacing|9"}}}} -->
 <div class="wp-block-columns alignwide" style="padding-top:var(--wp--preset--spacing--9);padding-bottom:var(--wp--preset--spacing--12)"><!-- wp:column {"width":"50%"} -->
-<div class="wp-block-column" style="flex-basis:50%"><!-- wp:image {"id":29983,"aspectRatio":"2/3","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"24px"}}} -->
-<figure class="wp-block-image size-full has-custom-border"><img src="http://ainodev.local/wp-content/uploads/2023/02/4_3-portrait.jpg" alt="" class="wp-image-29983" style="border-radius:24px;aspect-ratio:2/3;object-fit:cover"/></figure>
-<!-- /wp:image --></div>
+<div class="wp-block-column" style="flex-basis:50%">
+
+<!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"1.25rem"}}} -->
+<figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/roppongi-hills.jpg" alt="About Image" style="border-radius:1.25rem"/></figure>
+<!-- /wp:image -->
+</div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"50%","style":{"spacing":{"blockGap":"var:preset|spacing|9"}}} -->
-<div class="wp-block-column" style="flex-basis:50%"><!-- wp:image {"id":30666,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"24px"}}} -->
-<figure class="wp-block-image size-full has-custom-border"><img src="http://ainodev.local/wp-content/uploads/2022/10/Screenshot-2023-06-30-at-5.47.46-PM.png" alt="" class="wp-image-30666" style="border-radius:24px"/></figure>
+<div class="wp-block-column" style="flex-basis:50%">
+<!-- wp:image {"aspectRatio":"3/2","scale":"cover","style":{"border":{"radius":"1.25rem"}},"className":"size-full has-custom-border"} -->
+<figure class="wp-block-image has-custom-border size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/light-and-shadow.jpg" alt="About Image" style="border-radius:1.25rem;aspect-ratio:3/2;object-fit:cover"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"id":30666,"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"24px"}}} -->
-<figure class="wp-block-image size-full has-custom-border"><img src="http://ainodev.local/wp-content/uploads/2022/10/Screenshot-2023-06-30-at-5.47.46-PM.png" alt="" class="wp-image-30666" style="border-radius:24px"/></figure>
-<!-- /wp:image --></div>
+<!-- wp:image {"aspectRatio":"3/2","scale":"cover","style":{"border":{"radius":"1.25rem"}},"className":"size-full has-custom-border"} -->
+<figure class="wp-block-image has-custom-border size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/girl-with-camera.jpg" alt="About Image" style="border-radius:1.25rem;aspect-ratio:3/2;object-fit:cover"/></figure>
+<!-- /wp:image -->
+</div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
 </div>
