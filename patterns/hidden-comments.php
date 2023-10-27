@@ -9,8 +9,9 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|9","bottom":"var:preset|spacing|9"},"blockGap":"0"}},"className":"btn-round form-rounded","layout":{"type":"constrained"}} -->
 <div class="wp-block-group btn-round form-rounded" style="padding-top:var(--wp--preset--spacing--9);padding-bottom:var(--wp--preset--spacing--9)">
 <!-- wp:comments {"textColor":"font-secondary","className":"wp-block-comments-query-loop "} -->
-<div class="wp-block-comments wp-block-comments-query-loop has-font-secondary-color has-text-color"><!-- wp:heading {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|6"}},"typography":{"fontStyle":"normal","fontWeight":"600","letterSpacing":"-1.5px"}},"textColor":"font-primary","fontSize":"text-xl"} -->
-<h2 class="wp-block-heading has-font-primary-color has-text-color has-text-xl-font-size" id="comments" style="padding-bottom:var(--wp--preset--spacing--6);font-style:normal;font-weight:600;letter-spacing:-1.5px">Comments</h2>
+<div class="wp-block-comments wp-block-comments-query-loop has-font-secondary-color has-text-color">
+<!-- wp:heading {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|6"}},"typography":{"letterSpacing":"0px"}},"textColor":"font-primary","fontSize":"text-xl"} -->
+<h2 class="wp-block-heading has-font-primary-color has-text-color has-text-xl-font-size" id="comments" style="padding-bottom:var(--wp--preset--spacing--6);letter-spacing:0px">Comments</h2>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"style":{"spacing":{"margin":{"bottom":"var:preset|spacing|9"}}},"backgroundColor":"border-secondary","className":"is-style-wide"} -->
@@ -39,6 +40,6 @@
 <!-- /wp:columns -->
 <!-- /wp:comment-template -->
 
-<!-- wp:post-comments-form {"style":{"spacing":{"padding":{"top":"var:preset|spacing|9","bottom":"var:preset|spacing|6"}}},"textColor":"font-secondary","fontSize":"text-m"} /--></div>
+<!-- wp:post-comments-form {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|6","top":"var:preset|spacing|6"}}},"textColor":"font-secondary","fontSize":"text-m"} /--></div>
 <!-- /wp:comments --></div>
 <!-- /wp:group -->
