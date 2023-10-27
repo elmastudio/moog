@@ -17,8 +17,12 @@
 
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|9"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column {"width":"33.33%","style":{"spacing":{"padding":{"top":"var:preset|spacing|12","bottom":"var:preset|spacing|12"},"blockGap":"var:preset|spacing|9"}}} -->
-<div class="wp-block-column" style="padding-top:var(--wp--preset--spacing--12);padding-bottom:var(--wp--preset--spacing--12);flex-basis:33.33%"><!-- wp:group {"style":{"border":{"radius":"1.5rem"},"spacing":{"padding":{"top":"var:preset|spacing|9","bottom":"var:preset|spacing|9","left":"var:preset|spacing|9","right":"var:preset|spacing|9"}}},"backgroundColor":"surface-secondary","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-surface-secondary-background-color has-background" style="border-radius:1.5rem;padding-top:var(--wp--preset--spacing--9);padding-right:var(--wp--preset--spacing--9);padding-bottom:var(--wp--preset--spacing--9);padding-left:var(--wp--preset--spacing--9)">
+<div class="wp-block-column" style="padding-top:var(--wp--preset--spacing--12);padding-bottom:var(--wp--preset--spacing--12);flex-basis:33.33%">
+
+
+
+<!-- wp:group {"style":{"border":{"radius":"1.5rem","width":"1px"},"spacing":{"padding":{"top":"var:preset|spacing|9","bottom":"var:preset|spacing|9","left":"var:preset|spacing|9","right":"var:preset|spacing|9"}}},"borderColor":"surface-primary","backgroundColor":"surface-secondary","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-border-color has-surface-primary-border-color has-surface-secondary-background-color has-background" style="border-width:1px;border-radius:1.5rem;padding-top:var(--wp--preset--spacing--9);padding-right:var(--wp--preset--spacing--9);padding-bottom:var(--wp--preset--spacing--9);padding-left:var(--wp--preset--spacing--9)">
 
 <!-- wp:image {"width":"96px","height":"96px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"width":"0px","style":"none","radius":"100px"}},"className":"is-resized"} -->
 <figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/avatar-person-2.jpg" alt="Team Member" style="border-style:none;border-width:0px;border-radius:100px;object-fit:cover;width:96px;height:96px"/></figure>
@@ -39,8 +43,8 @@
 <!-- /wp:social-links --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"border":{"radius":"1.5rem"},"spacing":{"padding":{"top":"var:preset|spacing|9","bottom":"var:preset|spacing|9","left":"var:preset|spacing|9","right":"var:preset|spacing|9"}}},"backgroundColor":"surface-secondary","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-surface-secondary-background-color has-background" style="border-radius:1.5rem;padding-top:var(--wp--preset--spacing--9);padding-right:var(--wp--preset--spacing--9);padding-bottom:var(--wp--preset--spacing--9);padding-left:var(--wp--preset--spacing--9)">
+<!-- wp:group {"style":{"border":{"radius":"1.5rem","width":"1px"},"spacing":{"padding":{"top":"var:preset|spacing|9","bottom":"var:preset|spacing|9","left":"var:preset|spacing|9","right":"var:preset|spacing|9"}}},"borderColor":"surface-primary","backgroundColor":"surface-secondary","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-border-color has-surface-primary-border-color has-surface-secondary-background-color has-background" style="border-width:1px;border-radius:1.5rem;padding-top:var(--wp--preset--spacing--9);padding-right:var(--wp--preset--spacing--9);padding-bottom:var(--wp--preset--spacing--9);padding-left:var(--wp--preset--spacing--9)">
 
 <!-- wp:image {"width":"96px","height":"96px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"width":"0px","style":"none","radius":"100px"}},"className":"is-resized"} -->
 <figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/avatar-person-1.jpg" alt="Team Member" style="border-style:none;border-width:0px;border-radius:100px;object-fit:cover;width:96px;height:96px"/></figure>
