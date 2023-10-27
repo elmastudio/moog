@@ -683,10 +683,10 @@
 			"core/button": {
 				"spacing": {
 					"padding": {
-						"bottom": "1.5rem",
-						"left": "2rem",
-						"right": "2rem",
-						"top": "1.5rem"
+						"bottom": "1.25rem",
+						"left": "1.625rem",
+						"right": "1.625rem",
+						"top": "1.25rem"
 					}
 				},
 				"color": {
