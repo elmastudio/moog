@@ -80,6 +80,8 @@ Source: https://github.com/cyrealtype/Lora-Cyrillic
 
 = 1.0.4 - 2023-10-27 =
 * Enhance Single Post template
+* Update styles
+* Enhance patterns
 
 = 1.0.3 - 2023-10-25 =
 * Initial release
