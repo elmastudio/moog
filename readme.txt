@@ -1,20 +1,17 @@
 === Moog ===
-Contributors: elmastudio
+Contributors: elmastudio, manuelesposito
 Tags: blog, block-styles, grid-layout, one-column, two-columns, three-columns, four-columns, featured-images, full-width-template, custom-colors, custom-menu, custom-logo, editor-style, sticky-post, translation-ready, threaded-comments, wide-blocks, full-site-editing, template-editing, style-variations
 Requires at least: 6.1
-Tested up to: WordPress 6.2
+Tested up to: WordPress 6.4
 Requires PHP: 7.0
-Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A beautifully designed WordPress Masonry grid blog block theme.
-
 == Description ==
 
-A beautifully designed WordPress Masonry grid blog block theme.
+With Moog, you have the canvas to create a blog that radiates your personality and stands out with a bold and fun design. Whether you're an established blogger or just starting your journey, this WordPress block theme promises a spectrum of style variations to match your vision. Unleash your creativity and redefine your blogging presence with Moog. Start building the blog you've always dreamed of, one that's bold, fun, and uniquely you.
 
-You can find more information and helpful resources about this theme on https://ainoblocks.io.
+You can find more information and helpful resources about this theme on https://elmastudio.de/en/.
 
 == Copyright ==
 
@@ -78,20 +75,16 @@ Copyright 2011 The Lora Project Authors
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://github.com/cyrealtype/Lora-Cyrillic
 
-TGM-Plugin-Activation (Recommended plugin admin info)
-Copyright Thomas Griffin
-License: GPLv2 or later, http://www.gnu.org/licenses/gpl-2.0.html
-Source: http://tgmpluginactivation.com
-
-Merlin WP (Demo Import)
-Copyright Rich Tabor
-License: GPLv3 or later, https://www.gnu.org/licenses/gpl-3.0.html
-Source: https://github.com/richtabor/MerlinWP
 
 == Changelog ==
 
-= 1.0 =
-* Released: , 2023
+= 1.0.4 - 2023-10-27 =
+* Enhance Single Post template
+* Update styles
+* Enhance patterns
+
+= 1.0.3 - 2023-10-25 =
+* Initial release
 
 === Images ===
 License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
