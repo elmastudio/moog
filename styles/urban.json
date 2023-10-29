@@ -217,22 +217,26 @@
 			},
 			"h3": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--text-xxl)"
+					"fontSize": "var(--wp--preset--font-size--text-xxl)",
+					"letterSpacing":"-1.75px"
 				}
 			},
 			"h4": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--text-xl)"
+					"fontSize": "var(--wp--preset--font-size--text-xl)",
+					"letterSpacing":"-1.5px"
 				}
 			},
 			"h5": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--text-l)"
+					"fontSize": "var(--wp--preset--font-size--text-l)",
+					"letterSpacing":"-1px"
 				}
 			},
 			"h6": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--text-m)"
+					"fontSize": "var(--wp--preset--font-size--text-m)",
+					"letterSpacing":"-0.5px"
 				}
 			},
 			"heading": {
