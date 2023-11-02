@@ -78,7 +78,7 @@ Source: https://github.com/cyrealtype/Lora-Cyrillic
 
 == Changelog ==
 
-= 1.0.6 - 2023-11-01 =
+= 1.0.6 - 2023-11-02 =
 * Fix: Text links
 * Fix: Navigation block gap in header pattern
 * Fix: Update image credits in readme.txt
