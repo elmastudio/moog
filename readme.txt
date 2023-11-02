@@ -78,6 +78,13 @@ Source: https://github.com/cyrealtype/Lora-Cyrillic
 
 == Changelog ==
 
+= 1.0.7 - 2023-11-03 =
+* Enhance: Quote block
+* Enhance: Default Page template
+* Enhance: Navigation block in Header and Footer patterns
+* Enhance: Related Posts pattern
+* Enhance: Comments pattern
+
 = 1.0.6 - 2023-11-02 =
 * Fix: Text links
 * Fix: Navigation block gap in header pattern
