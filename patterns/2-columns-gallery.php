@@ -26,18 +26,20 @@
 <!-- wp:image {"sizeSlug":"full","linkDestination":"none","style":{"border":{"radius":"1.25rem"}}} -->
 <figure class="wp-block-image size-full has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/roppongi-hills.jpg" alt="About Image" style="border-radius:1.25rem"/></figure>
 <!-- /wp:image -->
+
 </div>
 <!-- /wp:column -->
 
 <!-- wp:column {"width":"50%","style":{"spacing":{"blockGap":"var:preset|spacing|9"}}} -->
 <div class="wp-block-column" style="flex-basis:50%">
-<!-- wp:image {"aspectRatio":"3/2","scale":"cover","style":{"border":{"radius":"1.25rem"}},"className":"size-full has-custom-border"} -->
-<figure class="wp-block-image has-custom-border size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/light-and-shadow.jpg" alt="About Image" style="border-radius:1.25rem;aspect-ratio:3/2;object-fit:cover"/></figure>
+<!-- wp:image {"style":{"border":{"radius":"1.25rem"}},"className":"size-full has-custom-border"} -->
+<figure class="wp-block-image has-custom-border size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/light-and-shadow.jpg" alt="About Image" style="border-radius:1.25rem"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:image {"aspectRatio":"3/2","scale":"cover","style":{"border":{"radius":"1.25rem"}},"className":"size-full has-custom-border"} -->
-<figure class="wp-block-image has-custom-border size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/girl-with-camera.jpg" alt="About Image" style="border-radius:1.25rem;aspect-ratio:3/2;object-fit:cover"/></figure>
+<!-- wp:image {"style":{"border":{"radius":"1.25rem"}},"className":"size-full has-custom-border"} -->
+<figure class="wp-block-image has-custom-border size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/girl-with-camera.jpg" alt="About Image" style="border-radius:1.25rem"/></figure>
 <!-- /wp:image -->
+
 </div>
 <!-- /wp:column --></div>
 <!-- /wp:columns -->
