@@ -1,0 +1,21 @@
+table {
+	width: 100%;
+	border-collapse: collapse;
+	background: transparent;
+
+	th,
+	td {
+		padding: 10px;
+		border: 1px solid;
+		border-color: var(--wp--preset--color--border-secondary);
+	}
+
+	th {
+		text-align: left;
+		font-weight: var(--wp--custom--font-weight--heading);
+	}
+}
+
+table tr:last-of-type {
+	border-bottom: none;
+}

@@ -1,0 +1,231 @@
+.wp-block-query {
+
+	.wp-block-post-template {
+		padding: 0;
+
+		.wp-block-post-terms {
+			display: flex;
+			flex-wrap: wrap;
+
+			&__separator {
+				padding-left: var(--wp--preset--spacing--3);
+			}
+		}
+
+		.wp-block-post-excerpt {
+
+			&__more-text {
+				padding-top: var(--wp--preset--spacing--3);
+			}
+
+		}
+
+		.taxonomy-post_tag {
+
+			a {
+
+				&:before {
+					content: "\0023";
+					display: inline;
+				}
+
+			}
+		}
+
+		&.masonry {
+			display: block !important;
+
+			.wp-block-post {
+				width: 100% !important;
+			}
+
+			li {
+				break-inside: avoid;
+			}
+
+			&.columns-2 {
+				columns: 1;
+	
+				@include breakpoint(sm) {
+					columns: 2;
+				}
+	
+				@include breakpoint(xxl) {
+					columns: 3;
+				}
+	
+				@include breakpoint(xxxl) {
+					columns: 4;
+				}
+			}
+	
+			&.columns-3 {
+				columns: 1;
+	
+				@include breakpoint(sm) {
+					columns: 2;
+				}
+	
+				@include breakpoint(xxl) {
+					columns: 3;
+				}
+	
+				@include breakpoint(xxxl) {
+					columns: 4;
+				}
+		
+			}
+	
+			&.columns-4 {
+				columns: 1;
+	
+				@include breakpoint(sm) {
+					columns: 2;
+				}
+	
+				@include breakpoint(xxl) {
+					columns: 3;
+				}
+	
+				@include breakpoint(xxxl) {
+					columns: 4;
+				}
+			}
+	
+			&.columns-5 {
+				columns: 1;
+	
+				@include breakpoint(sm) {
+					columns: 2;
+				}
+	
+				@include breakpoint(xxl) {
+					columns: 3;
+				}
+	
+				@include breakpoint(xxxl) {
+					columns: 4;
+				}
+	
+			}
+	
+			&.columns-6 {
+				columns: 1;
+	
+				@include breakpoint(sm) {
+					columns: 2;
+				}
+	
+				@include breakpoint(xxl) {
+					columns: 3;
+				}
+	
+				@include breakpoint(xxxl) {
+					columns: 4;
+				}
+	
+			}
+		}
+	}
+}
+
+// Post Authors
+.post-meta,
+.wp-block-query {
+
+	.wp-block-post-author {
+		display: flex;
+		align-items: center;
+
+		&:after {
+			content: "";
+		}
+
+		&__avatar {
+
+			img {
+				border: 1px solid var(--wp--preset--color--border-secondary);
+				border-radius: 50%;
+			}
+		}
+
+		&__byline,
+		&__name {
+			display: inline;
+		}
+
+		&__byline {
+			font-size: inherit;
+		}
+	}
+}
+
+.post-meta,
+.one-col-img-large,
+.one-col-img-overlay,
+.two-col-img-overlay {
+
+	.wp-block-post-author {
+
+		&__avatar {
+			@include avatar-m;
+			margin-right: 0.75rem;
+		}
+	}
+
+	.wp-block-post-terms {
+
+		a:not(:last-child) {
+			margin-right: var(--wp--preset--spacing--4);
+		}
+	}
+}
+
+// Small, medium, lager grid gaps
+.wp-block-post-template.gap-s {
+	gap: 1rem;
+}
+
+.wp-block-post-template.gap-m {
+	gap: 1rem;
+
+	@media (min-width: 48rem) {
+		gap: 1.5rem;
+	}
+}
+
+.wp-block-post-template.gap-l {
+	gap: 1.25rem;
+
+	@media (min-width: 48rem) {
+		gap: 2rem;
+	}
+}
+
+.wp-block-post-template.gap-xl {
+	gap: 1.5rem;
+
+	.wp-block-post {
+		padding-bottom: 1.5rem;
+	}
+
+	@include breakpoint(sm) {
+		gap: 2rem;
+
+		.wp-block-post {
+			padding-bottom: 2rem;
+		}
+	}
+
+	@include breakpoint(md) {
+		gap: 3rem;
+
+		.wp-block-post {
+			padding-bottom: 3rem;
+		}
+	}
+}
+
+.wp-block-post-author__avatar {
+	margin-right: 0.75em;
+}

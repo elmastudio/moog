@@ -1,0 +1,278 @@
+input:not([type=submit]):not([type=checkbox]),
+textarea,
+.wp-block-post-comments textarea,
+.wp-block-search__input,
+.wp-block-post-comments input:not([type=submit]),
+.wp-block-post-comments textarea {
+	box-sizing: border-box;
+	background-color: var(--wp--preset--color--surface-input);
+	color: var(--wp--preset--color--text-secondary);
+	border: 1px solid var(--wp--preset--color--border-input) !important;
+	font-size: var(--wp--preset--font-size--text-xs) !important;
+	line-height: var(--global--line-height-reset);
+	padding: 0 calc(1.25rem - 2px);
+	@include focus-visible;
+
+	&::placeholder {
+		color: var(--wp--preset--color--text-tertiary);
+	}
+}
+
+input:not([type=submit]) {
+	min-height: 3.5rem;
+}
+
+.form-fullwidth input:not([type=submit]):not([type=checkbox]),
+.comment-form input:not([type=submit]):not([type=checkbox]) {
+	width: 100%;
+}
+
+// Testarea
+textarea {
+	width: 100%;
+	background-color: transparent;
+	background: var(--wp--preset--color--surface-input);
+	border: 1px solid var(--wp--preset--color--border-input);
+	padding: 1rem 1.5rem;
+}
+
+textarea,
+.wp-block-post-comments textarea {
+	line-height: var(--wp--custom--line-height--body);
+}
+
+// Form labels
+form label {
+	position: relative;
+	color: var(--wp--preset--color--text-secondary);
+	display: block;
+	margin-bottom: 4px;
+	font-weight: 700;
+}
+
+.post-password-form {
+
+	label {
+		display: inline-block !important;
+	}
+
+}
+
+// Checkbox
+input[type="checkbox"],
+.wc-block-components-checkbox .wc-block-components-checkbox__input[type=checkbox] {
+	position: relative;
+	height: 1.25rem;
+	width: 1.25rem;
+	min-height: 1.25rem;
+	min-width: 1.25rem;
+	border: 1px solid var(--wp--preset--color--border-input);
+	border-radius: 4px;
+	-webkit-appearance: none;
+	margin-right: 6px;
+
+	&:checked:after {
+		content: "";
+		display: block;
+		position: absolute;
+		top: -1px;
+		left: -1px;
+		transition: all 0.2s ease-in-out;
+		opacity: 1;
+		height: 1.25rem;
+		width: 1.25rem;
+		background-image: url(/assets/images/tick.svg) !important;
+		z-index: 100;
+	}
+
+	&:checked {
+		border: 1px solid var(--wp--preset--color--surface-brand-primary);
+		background: var(--wp--preset--color--surface-brand-primary);
+	}
+
+	&:focus {
+		outline: 2px solid var(--wp--preset--color--surface-brand-primary);
+		outline-offset: 2px;
+	}
+}
+
+/* Submit */
+input[type="submit"],
+button[type="submit"] {
+	display: block;
+	clear: both;
+}
+
+.wp-block-post-comments .submit {
+	border: none;
+}
+
+// Default comment form
+.color-notice,
+label.color-notice span {
+	color: var(--global--color--notification);
+}
+
+.comment-respond textarea {
+	min-height: 7.5rem;
+}
+
+form p {
+	padding-top: var(--wp--preset--spacing--6);
+	padding-bottom: 0;
+}
+
+/* Search */
+.wp-block-search {
+
+	.wp-block-search {
+
+		&__inside-wrapper {
+			display: block;
+		}
+
+		&__button {
+			margin-top: .5rem;
+			margin-left: 0;
+			background: var(--wp--preset--color--surface-brand-primary);
+			color: var(--wp--preset--color--text-on);
+			border: none;
+			width: 100%;
+
+			&:hover {
+				background-color: var(--wp--preset--color--surface-brand-secondary);
+				text-decoration: none;
+			}
+		}
+
+		&__input {
+			width: 100%;
+			padding: 1.125rem;
+		}
+
+		&__label {
+			width: auto;
+		}
+
+		@include breakpoint(sm) {
+			&__inside-wrapper {
+				display: flex;
+				flex: auto;
+				max-width: 100%;
+			}
+
+			&__button {
+				width: auto;
+				margin-top: 0;
+				margin-left: .5rem;
+			}
+		}
+	}
+}
+
+/* Mailchimp / Mailerlite */
+.mc4wp-form,
+.mailerlite-form {
+
+	.mc4wp-form-fields,
+	.mailerlite-form-field {
+		display: block;
+		width: 100%;
+
+		input[type=email],
+		input[type=submit] {
+			width: 100%;
+		}
+
+		p {
+			padding-top: .5rem;
+			width: 100%;
+
+			input[type=email],
+			input[type=submit] {
+				width: 100%;
+			}
+		}
+
+		p:first-of-type {
+			padding-top: 0;
+		}
+
+		.mc4wp-alert p {
+			text-align: center;
+		}
+
+		.mc4wp-success p {
+			color: var(--global--color--success);
+		}
+
+		.mc4wp-notice p {
+			color: var(--global--color--notification);
+		}
+
+	}
+
+	.mailerlite-subscribe-submit {
+		width: 100%;
+	}
+
+	@include breakpoint(sm) {
+		.mc4wp-form-fields {
+			display: flex;
+			justify-content: space-between;
+
+			p {
+				width: 100%;
+				padding-top: 0;
+
+				&:last-child {
+					width: auto;
+				}
+
+				input[type=submit] {
+					width: auto;
+					margin-left: .5rem;
+				}
+			}
+		}
+
+		.mailerlite-form-inputs {
+			display: flex;
+			justify-content: space-between;
+
+			.mailerlite-subscribe-submit {
+				width: auto;
+				margin-left: .5rem;
+			}
+		}
+	}
+}
+
+.label-hide {
+	.mailerlite-form-field {
+		label:first-of-type {
+			display: none !important;
+		}
+	}
+}
+
+/* Border radius */
+.form-rounded {
+
+	input:not([type=checkbox]):not([type=range]),
+	textarea,
+	select {
+		border-radius: var(--global--border-radius-xxs);
+	}
+}
+
+.form-round {
+
+	input {
+		border-radius: var(--global--border-radius-round);
+	}
+
+	textarea {
+		border-radius: var(--global--border-radius-xxs);
+	}
+}

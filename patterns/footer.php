@@ -10,9 +10,11 @@
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"bottom":"var:preset|spacing|9","right":"var:preset|spacing|9","left":"var:preset|spacing|9","top":"var:preset|spacing|9"}}},"className":"site-footer"} -->
 <div class="wp-block-group alignfull site-footer" style="padding-top:var(--wp--preset--spacing--9);padding-right:var(--wp--preset--spacing--9);padding-bottom:var(--wp--preset--spacing--9);padding-left:var(--wp--preset--spacing--9)"><!-- wp:group {"style":{"border":{"radius":"24px","width":"1px"}},"borderColor":"border-primary","backgroundColor":"background-secondary","layout":{"type":"default"}} -->
 <div class="wp-block-group has-border-color has-border-primary-border-color has-background-secondary-background-color has-background" style="border-width:1px;border-radius:24px"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|9","bottom":"var:preset|spacing|9","left":"var:preset|spacing|9","right":"var:preset|spacing|9"}}},"className":"btn-round form-round btn-l form-l","layout":{"type":"constrained"},"paddingBottom":1} -->
-<div class="wp-block-group btn-round form-round btn-l form-l pb__1" style="padding-top:var(--wp--preset--spacing--9);padding-right:var(--wp--preset--spacing--9);padding-bottom:var(--wp--preset--spacing--9);padding-left:var(--wp--preset--spacing--9)"><!-- wp:heading {"textAlign":"center","level":3,"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|6"}}},"textColor":"font-primary","className":"wp-block-heading","fontSize":"text-l"} -->
-<h3 class="wp-block-heading has-text-align-center has-font-primary-color has-text-color has-text-l-font-size" style="padding-bottom:var(--wp--preset--spacing--6)">Join our newsletter</h3>
-<!-- /wp:heading --></div>
+<div class="wp-block-group btn-round form-round btn-l form-l pb__1" style="padding-top:var(--wp--preset--spacing--9);padding-right:var(--wp--preset--spacing--9);padding-bottom:var(--wp--preset--spacing--9);padding-left:var(--wp--preset--spacing--9)">
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"spacing":{"padding":{"bottom":"var:preset|spacing|6"}}},"textColor":"text-primary","className":"wp-block-heading","fontSize":"text-l"} -->
+<p class="has-text-align-center wp-block-heading has-text-primary-color has-text-color has-text-l-font-size" style="padding-bottom:var(--wp--preset--spacing--6);font-style:normal;font-weight:600">Join our newsletter</p>
+<!-- /wp:paragraph -->
+</div>
 <!-- /wp:group -->
 
 <!-- wp:separator {"backgroundColor":"border-primary","className":"is-style-wide"} -->
@@ -37,9 +39,10 @@
 
 <!-- wp:site-logo {"width":64,"align":"center"} /-->
 
-<!-- wp:paragraph {"align":"center","fontSize":"text-xxs"} -->
-<p class="has-text-align-center has-text-xxs-font-size">Theme by <a href="https://www.elmastudio.de/en/">ElmaStudio</a>. Powered by <a href="https://wordpress.org">WordPress</a></p>
-<!-- /wp:paragraph --></div>
+<!-- wp:paragraph {"align":"center","style":{"typography":{"fontStyle":"normal","fontWeight":"600"}},"fontSize":"text-xxs"} -->
+<p class="has-text-align-center has-text-xxs-font-size" style="font-style:normal;font-weight:600"> Theme by <a href="https://www.elmastudio.de/en/">ElmaStudio</a>. Powered by <a href="https://wordpress.org">WordPress</a></p>
+<!-- /wp:paragraph -->
+</div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

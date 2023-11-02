@@ -1,0 +1,37 @@
+*,
+::before,
+::after {
+	box-sizing: inherit;
+}
+
+* {
+	font-size: inherit;
+	line-height: inherit;
+}
+
+::before,
+::after {
+	text-decoration: inherit;
+	vertical-align: inherit;
+}
+
+
+// specify solid border style of all elements
+
+*,
+::before,
+::after {
+	border-style: solid;
+	border-width: 0;
+}
+
+// remove margin and padding of all elements
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wp-block-separator {
+	border: 0.5px solid;
+}

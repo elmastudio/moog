@@ -1,0 +1,73 @@
+.pagination-wrap {
+
+	.wp-block-query-pagination,
+	.wp-block-query-pagination-numbers {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		gap: 1.5rem;
+		margin: 0;
+
+		@include breakpoint(md) {
+			justify-content: center;
+		}
+
+		.page-numbers:not(.dots),
+		.wp-block-query-pagination-previous,
+		.wp-block-query-pagination-next {
+			@include btn;
+			justify-content: center;
+			align-items: center;
+			margin: 0;
+		}
+
+		.wp-block-query-pagination-previous,
+		.wp-block-query-pagination-next {
+			display: flex;
+		}
+
+		.page-numbers {
+			display: none !important;
+
+			@include breakpoint(md) {
+				display: flex !important;
+			}
+		}
+
+		.wp-block-query-pagination-previous,
+		.page-numbers:not(.current):not(.dots),
+		.wp-block-query-pagination-next {
+			@include btn-tab-clean;
+		}
+
+		.page-numbers {
+			padding: 0.75rem 1.5rem;
+			border-radius: var(--global--border-radius-round);
+			max-height: 2.5rem;
+		}
+
+		.page-numbers.dots {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.wp-block-query-pagination-previous,
+		.wp-block-query-pagination-next {
+			border-radius: var(--global--border-radius-round);
+			width: 40px;
+				height: 40px;
+
+				.is-arrow-arrow {
+					margin: 0;
+				}
+		}
+
+		.page-numbers.current,
+		.page-numbers.current:hover {
+			background-color: var(--wp--preset--color--text-secondary);
+			border-color: var(--wp--preset--color--text-secondary);
+			color: var(--wp--preset--color--surface-secondary);
+		}
+	}
+}

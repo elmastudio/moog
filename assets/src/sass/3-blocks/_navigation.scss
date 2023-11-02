@@ -1,0 +1,306 @@
+.wp-block-navigation {
+
+	.wp-block-navigation__submenu-icon {
+		width: 1rem;
+		height: inherit;
+		margin: 0;
+		padding-left: 4px;
+
+		svg {
+			width: 16px;
+			height: 16px;
+			margin: 0;
+			padding: 1px;
+
+			path {
+				stroke-width: 1 !important;
+				stroke-linecap: round;
+			}
+		}
+	}
+
+	.wp-block-navigation-item {
+		background-color: transparent !important;
+	}
+
+	.wp-block-navigation__submenu-container {
+		border-radius:var(--wp--preset--spacing--3);
+		padding: 0;
+
+		.wp-block-navigation-item__content {
+			align-items: stretch;
+			padding-top: var(--wp--preset--spacing--2);
+			padding-bottom: var(--wp--preset--spacing--2);
+			padding-left: var(--wp--preset--spacing--6);
+			padding-right: var(--wp--preset--spacing--6);
+			gap: 0;
+		}
+
+		li {
+			&:first-of-type {
+				padding-top: var(--wp--preset--spacing--3);
+			}
+
+			&:last-of-type {
+				padding-bottom: var(--wp--preset--spacing--3);
+			}
+		}
+
+		&.has-child {
+			.wp-block-navigation-item__content {
+				padding-right: var(--wp--preset--spacing--2);
+			}
+		}
+
+		.wp-block-navigation__submenu-icon {
+			width: 3.25rem;
+			height: 2.5rem;
+			margin: 0;
+			padding-right: var(--wp--preset--spacing--3);
+		}
+
+	}
+
+	.wp-block-navigation__responsive-container:not(.is-menu-open) {
+
+		.wp-block-navigation__submenu-container {
+				flex-direction: column;
+				margin-left: 0;
+				border-radius: 12px;
+				border: 1px solid var(--wp--preset--color--border-secondary);
+				left: -1.5rem !important;
+				width: 15rem !important;
+
+				.wp-block-navigation__submenu-container {
+					top: -0.75rem !important;
+					left: 100% !important;
+				}
+			}
+	}
+
+	&.variant {
+
+		.wp-block-navigation__submenu-container {
+			background-color: var(--wp--preset--color--variant-surface-secondary);
+		}
+	}
+
+	.wp-block-navigation__container {
+		&:only-child {
+			flex-grow: 0;
+		}
+	}
+
+	.wp-block-navigation__responsive-container-close {
+		width: 72px;
+		height: 2.5rem;
+		align-items: center;
+		justify-content: flex-end;
+		margin: 1.5rem 0;
+		padding-right: 32px;
+		display: flex;
+
+		svg {
+
+			path {
+				stroke-width: 1 !important;
+				stroke-linecap: round;
+			}
+		}
+	}
+
+	&__responsive-close {
+		max-width: 100%;
+	}
+}
+
+.wp-block-navigation {
+
+	.wp-block-navigation-item {
+
+		&__content {
+			padding-top: var(--wp--preset--spacing--3);
+			padding-bottom: var(--wp--preset--spacing--3);
+
+			&:hover {
+				color: var(--wp--preset--color--text-tertiary);
+			}
+		}
+	}
+
+	.wp-block-navigation__submenu-container {
+		a {
+			line-height: var(--wp--custom--line-height--body);
+		}
+	}
+}
+
+.wp-block-navigation .has-child:not(.open-on-click):hover>.wp-block-navigation__submenu-container {
+	min-width: 15rem;
+}
+
+// Mobile menu
+.wp-block-navigation__responsive-container {
+
+	&.is-menu-open {
+		padding: 0;
+		gap: 0 !important;
+		background: var(--wp--preset--color--surface-secondary);
+
+		.wp-block-navigation__responsive-container-content {
+			padding-top: 4rem;
+			align-items: stretch;
+
+			.wp-block-navigation-item {
+				font-size: 1.5rem !important;
+				line-height: var(--wp--custom--line-height--body);
+
+				&:before {
+					content: "";
+					position: absolute;
+					left: 32px;
+					bottom: 0;
+					height: 1px;
+					width: calc(100% - 64px);
+					border-bottom: 1px solid var(--wp--preset--color--border-secondary);
+				}
+
+				.wp-block-navigation-item {
+					&:before {
+						height: 0;
+						border-bottom: none;
+					}
+				}
+
+				.wp-block-navigation-item__content {
+					padding: 12px 32px;
+					min-height: 60px;
+				}
+
+				.wp-block-navigation__submenu-icon {
+
+					svg {
+						width: 24px;
+						height: 24px;
+						padding: 2px;
+					}
+				}
+
+				&.wp-block-navigation-submenu {
+					display: block;
+					width: 100%;
+					flex-direction: row;
+					justify-content: flex-end;
+
+					.wp-block-navigation-submenu__toggle {
+						display: block;
+					}
+
+					.wp-block-navigation-submenu__toggle[aria-expanded=true] {
+						svg {
+							transform: rotate(180deg);
+						}
+					}
+
+					.wp-block-navigation-item__content {
+						position: relative;
+					}
+				}
+
+				.wp-block-navigation__submenu-container {
+					height: 0;
+					visibility: hidden;
+					opacity: 0;
+					overflow: hidden;
+					padding: 0;
+					min-width: 0;
+					width: 0;
+
+					.wp-block-navigation-item {
+						font-size: 1rem !important;
+						border-bottom: 0px;
+
+						.wp-block-navigation-item__content {
+							min-height: 48px;
+						}
+
+						.wp-block-navigation__submenu-icon {
+							padding-left: 20px;
+							height: 48px;
+
+							svg {
+								width: 16px;
+								height: 16px;
+								padding: 1px;
+								transform: none;
+							}
+						}
+
+						.wp-block-navigation-submenu__toggle[aria-expanded=true] {
+							svg {
+								transform: rotate(180deg);
+							}
+						}
+					}
+				}
+
+				.wp-block-navigation-submenu__toggle[aria-expanded=true]~.wp-block-navigation__submenu-container {
+					visibility: visible;
+					overflow: visible;
+					opacity: 1;
+					width: auto;
+					height: auto;
+					min-width: 200px;
+
+
+					.wp-block-navigation__submenu-container {
+
+						.wp-block-navigation-item__content {
+							padding-left: 64px;
+						}
+					}
+				}
+			}
+
+			.wp-block-navigation__submenu-icon {
+				width: 72px;
+				height: 60px;
+				padding-left: 16px;
+				padding-right: 32px;
+				position: absolute;
+				top: 0;
+				right: 0;
+				z-index: 100;
+				text-align: center;
+			}
+
+			.wp-block-navigation-item:not(.wp-block-navigation-submenu):not(.has-child) {
+				width: 100%;
+
+				.wp-block-navigation-item__content {
+					align-self: stretch;
+				}
+			}
+		}
+	}
+}
+
+.variant {
+
+	.wp-block-navigation__responsive-container {
+
+		&.is-menu-open {
+			background-color: var(--wp--preset--color--variant-surface-secondary) !important;
+
+		.wp-block-navigation__responsive-container-content {
+	
+				.wp-block-navigation-item {
+	
+					&:before {
+						border-bottom: 1px solid var(--wp--preset--color--variant-border-secondary) !important;
+					}
+				}
+			}
+		}
+	}
+}

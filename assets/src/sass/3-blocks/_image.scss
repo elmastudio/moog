@@ -1,0 +1,45 @@
+div[class*='wp-block-'] figcaption {
+	display: block;
+	margin-top: var(--wp--preset--spacing--4);
+	margin-bottom: 0;
+	text-align: left;
+	color: var(--wp--preset--color--text-secondary);
+}
+
+.wp-block-image {
+	margin-bottom: 0;
+
+	.alignright {
+		display: block;
+		float: right;
+		margin: 0;
+	}
+
+	.alignleft {
+		float: left;
+		margin: 0;
+	}
+
+	&.aligncenter {
+		clear: both;
+		display: block;
+		text-align: center;
+	}
+
+	&.alignfull img {
+		width: 100%;
+		max-width: 100%;
+		display: block;
+
+		figcaption {
+			text-align: center;
+		}
+	}
+
+	&.ellipse-horizontal {
+		clip-path: ellipse(50% 45% at 50% 50%);
+	}
+	&.ellipse-vertical {
+		clip-path: ellipse(50% 50% at 50% 50%);
+	}
+}

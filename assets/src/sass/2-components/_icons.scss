@@ -1,0 +1,56 @@
+.icon {
+	display: inline-block;
+	fill: currentColor;
+	position: relative;
+	top: 0;
+	vertical-align: middle;
+	text-align: center;
+	stroke-width: 0;
+	stroke: currentColor;
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+/* Social Icons */
+.menu-social-container {
+
+	.icon {
+		fill: var(--wp--preset--color--text-primary);
+		width: 1.5rem;
+		height: 1.5rem;
+	}
+
+	.icon-large {
+
+		.icon {
+			width: var(--wp--preset--spacing--8);
+			height: var(--wp--preset--spacing--8);
+		}
+	}
+}
+
+/* Search Form Icon */
+.search-icon {
+	display: none;
+}
+
+/* Back to top icon */
+.top {
+	&:before {
+		content: "\2191"; // top arrow glyth
+		margin-right: var(--wp--preset--spacing--1);
+	}
+}
+
+/* Arrow Icons */
+.arrow-left {
+	position: relative;
+
+	&:before {
+		text-indent: 0;
+		content: "\2192";
+		position: absolute;
+		top: 0;
+		left: 0;
+	}
+}
