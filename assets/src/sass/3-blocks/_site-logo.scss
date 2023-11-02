@@ -1,0 +1,13 @@
+.wp-block-site-logo {
+
+	.custom-logo path {
+		fill: var(--wp--preset--color--text-primary);
+	}
+
+	&.variant {
+
+		.custom-logo path {
+			fill: var(--wp--preset--color--variant-text-primary);
+		}
+	}
+}
