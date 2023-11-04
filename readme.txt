@@ -80,6 +80,7 @@ Source: https://github.com/cyrealtype/Lora-Cyrillic
 
 = 1.0.8 - 2023-11-04 =
 * Fix: Delete custom Heading font sizes in patterns
+* Fix: Query Loop block settings
 * Enhance: Team Info pattern
 * Enhance: Contact page pattern
 * Enhance: Single, Index, Archive templates
