@@ -10,8 +10,9 @@
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|9","left":"var:preset|spacing|9"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="padding-right:var(--wp--preset--spacing--9);padding-left:var(--wp--preset--spacing--9)">
 <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|9"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--9)"><!-- wp:heading {"style":{"typography":{"letterSpacing":"-1.5px"},"spacing":{"padding":{"bottom":"var:preset|spacing|6"}}},"fontSize":"text-xl"} -->
-<h2 class="wp-block-heading has-text-xl-font-size" style="padding-bottom:var(--wp--preset--spacing--6);letter-spacing:-1.5px">Our Studio</h2>
+<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--9)">
+<!-- wp:heading {"level":4,"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|6"}}}} -->
+<h4 class="wp-block-heading" style="padding-bottom:var(--wp--preset--spacing--6)">Our Studio</h4>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"align":"full","backgroundColor":"border-secondary","className":"is-style-wide"} -->

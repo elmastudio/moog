@@ -78,6 +78,12 @@ Source: https://github.com/cyrealtype/Lora-Cyrillic
 
 == Changelog ==
 
+= 1.0.8 - 2023-11-04 =
+* Fix: Delete custom Heading font sizes in patterns
+* Enhance: Team Info pattern
+* Enhance: Contact page pattern
+* Enhance: Single, Index, Archive templates
+
 = 1.0.7 - 2023-11-03 =
 * Enhance: Quote block
 * Enhance: Default Page template

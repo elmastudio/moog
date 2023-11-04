@@ -639,11 +639,11 @@
 				},
 				{
 					"fluid": {
-						"max": "6rem",
+						"max": "5rem",
 						"min": "3rem"
 					},
 					"name": "6XL",
-					"size": "6rem",
+					"size": "5rem",
 					"slug": "text-6-xl"
 				},
 				{
@@ -785,7 +785,7 @@
 					"text": "var(--wp--preset--color--text-primary)"
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--text-5-xl)",
+					"fontSize": "var(--wp--preset--font-size--text-6-xl)",
 					"lineHeight": "var(--wp--custom--line-height--heading)",
 					"letterSpacing":"-3.25px"
 				}
