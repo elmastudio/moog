@@ -7,7 +7,7 @@
  */
 ?>
 
-<!-- wp:query {"queryId":1,"query":{"perPage":12,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","sticky":""},"align":"wide"} -->
+<!-- wp:query {"queryId":1,"query":{"perPage":10,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","sticky":"","inherit":true},"align":"wide"} -->
 <div class="wp-block-query alignwide">
 
 <!-- wp:query-no-results -->
