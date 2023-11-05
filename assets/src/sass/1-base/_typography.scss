@@ -1,0 +1,45 @@
+button,
+input,
+select,
+table,
+textarea {
+	line-height: var(--wp--custom--line-height--body);
+}
+
+.mc4wp-form .mc4wp-alert p {
+	font-size: var(--wp--preset--font-size--text-xs) !important;
+}
+
+form label,
+.logged-in-as,
+#cancel-comment-reply-link,
+.comment-notes {
+	font-size: var(--wp--preset--font-size--text-xxs) !important;
+}
+
+textarea,
+.hentry ol,
+.hentry ul,
+dl {
+	font-size: var(--wp--preset--font-size--text-m) !important;
+}
+
+.authorbox__content .author-bio,
+.wp-block-separator.is-style-dots:before,
+.authorbox-wrap .wp-block-post-author__byline,
+.authorbox-wrap .wp-block-post-author__name,
+.wp-block-post-comments p.nocomments {
+	font-size: var(--wp--preset--font-size--text-l) !important;
+}
+
+/* Headings */
+h1.site-title,
+.site-title,
+h2.entry-title {
+	word-wrap: break-word;
+	hyphens: auto;
+}
+
+.authorbox__details .author-name {
+	font-size: var(--wp--preset--font-size--text-xxxl) !important;
+}

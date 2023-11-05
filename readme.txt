@@ -78,6 +78,31 @@ Source: https://github.com/cyrealtype/Lora-Cyrillic
 
 == Changelog ==
 
+= 1.0.9 - 2023-11-05 =
+* Enhance: Style variations
+
+= 1.0.8 - 2023-11-04 =
+* Fix: Delete custom Heading font sizes in patterns
+* Fix: Query Loop block settings
+* Enhance: Team Info pattern
+* Enhance: Contact page pattern
+* Enhance: Single, Index, Archive templates
+
+= 1.0.7 - 2023-11-03 =
+* Enhance: Quote block
+* Enhance: Default Page template
+* Enhance: Navigation block in Header and Footer patterns
+* Enhance: Related Posts pattern
+* Enhance: Comments pattern
+
+= 1.0.6 - 2023-11-02 =
+* Fix: Text links
+* Fix: Navigation block gap in header pattern
+* Fix: Update image credits in readme.txt
+* Fix: Set Heading font sizes to default in Templates
+* Enhance: 2 column gallery pattern images
+* New: Include sass files in folder assets/src/sass
+
 = 1.0.5 - 2023-10-29 =
 * Enhance style variations
 
@@ -92,9 +117,19 @@ Source: https://github.com/cyrealtype/Lora-Cyrillic
 === Images ===
 License: CC0 https://creativecommons.org/publicdomain/zero/1.0/
 
+Used in theme screenshot and block patterns:
+
 avatar-person-1.jpg - https://openverse.org/image/a9220858-8614-4f20-a3f4-c306317801f3
 avatar-person-2.jpg - https://openverse.org/image/9722b4be-1e30-4482-88b7-3a72663b106d?q=daikanyama
 light-and-shadow.jpg - https://openverse.org/image/b1b46fd0-6c86-48a1-8fee-102e128bf964
 girl-with-camera.jpg - https://openverse.org/image/9dfbb904-7ab5-41b4-b33e-06ce56c8b3db?q=blackandwhite%20japan%20urban
 roppongi-hills.jpg - https://openverse.org/image/8a52a0d5-e6b7-45c3-9095-9d82fd1cb708?q=blackandwhite%20japan%20urban
 thunder-robot.jpg - https://openverse.org/image/0851f936-f4f0-4c31-80de-35f2c07daae7?q=robot
+shinkansen-conductor - https://openverse.org/image/1255f96c-48d2-4961-9ba2-a250cefd71d0?q=train%20Japan
+japan-umbrellas - https://openverse.org/image/a375b682-02d5-4f64-ac02-b0c63398d100?q=tokyo
+daikanyama-street - https://openverse.org/image/9722b4be-1e30-4482-88b7-3a72663b106d?q=daikanyama
+bullet-goldfish - https://openverse.org/image/0df6984b-199c-48cb-bc6e-b3bb6a371817
+chiyoda-arts - https://openverse.org/image/76cd412f-906a-45c8-8fff-1d106a48a25d?q=tokyo%20art
+floating-lights - https://openverse.org/image/1ccf4901-b549-4d36-b037-552f03ab5f36?q=technology%20art
+casio-calculator - https://openverse.org/image/ca775223-3831-409b-8f5b-d37c4ada7622?q=vintage%20japan
+gundam-back - https://openverse.org/image/9cd8eaad-5268-4f60-aab1-d65d32cab00e

@@ -10,9 +10,12 @@
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"right":"var:preset|spacing|9","left":"var:preset|spacing|9"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="padding-right:var(--wp--preset--spacing--9);padding-left:var(--wp--preset--spacing--9)">
 <!-- wp:group {"align":"wide","style":{"spacing":{"padding":{"top":"var:preset|spacing|12","bottom":"var:preset|spacing|9"}}},"layout":{"type":"default"}} -->
-<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--12);padding-bottom:var(--wp--preset--spacing--9)"><!-- wp:heading {"fontSize":"text-5-xl"} -->
-<h2 class="wp-block-heading has-text-5-xl-font-size">Hello.<br>We are Moog.</h2>
-<!-- /wp:heading --></div>
+<div class="wp-block-group alignwide" style="padding-top:var(--wp--preset--spacing--12);padding-bottom:var(--wp--preset--spacing--9)">
+<!-- wp:heading {"level":1} -->
+<h1 class="wp-block-heading">Hello.<br>We are Moog.</h1>
+<!-- /wp:heading -->
+
+</div>
 <!-- /wp:group -->
 
 <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"left":"var:preset|spacing|9"}}}} -->
@@ -21,16 +24,16 @@
 
 
 
-<!-- wp:group {"style":{"border":{"radius":"1.5rem","width":"1px"},"spacing":{"padding":{"top":"var:preset|spacing|9","bottom":"var:preset|spacing|9","left":"var:preset|spacing|9","right":"var:preset|spacing|9"}}},"borderColor":"surface-primary","backgroundColor":"surface-secondary","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-border-color has-surface-primary-border-color has-surface-secondary-background-color has-background" style="border-width:1px;border-radius:1.5rem;padding-top:var(--wp--preset--spacing--9);padding-right:var(--wp--preset--spacing--9);padding-bottom:var(--wp--preset--spacing--9);padding-left:var(--wp--preset--spacing--9)">
+<!-- wp:group {"style":{"border":{"radius":"1.5rem","width":"1px"},"spacing":{"padding":{"top":"var:preset|spacing|9","bottom":"var:preset|spacing|9","left":"var:preset|spacing|9","right":"var:preset|spacing|9"}}},"borderColor":"border-primary","backgroundColor":"surface-secondary","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-border-color has-border-primary-border-color has-surface-secondary-background-color has-background" style="border-width:1px;border-radius:1.5rem;padding-top:var(--wp--preset--spacing--9);padding-right:var(--wp--preset--spacing--9);padding-bottom:var(--wp--preset--spacing--9);padding-left:var(--wp--preset--spacing--9)">
 
 <!-- wp:image {"width":"96px","height":"96px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"width":"0px","style":"none","radius":"100px"}},"className":"is-resized"} -->
 <figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/avatar-person-2.jpg" alt="Team Member" style="border-style:none;border-width:0px;border-radius:100px;object-fit:cover;width:96px;height:96px"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:heading {"level":3,"style":{"spacing":{"padding":{"top":"var:preset|spacing|4"}}},"fontSize":"text-l"} -->
-<h3 class="wp-block-heading has-text-l-font-size" style="padding-top:var(--wp--preset--spacing--4)">Yuki Kobayashi</h3>
-<!-- /wp:heading -->
+<!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|4"}},"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
+<p style="padding-top:var(--wp--preset--spacing--4);font-style:normal;font-weight:600">Yuki Kobayashi</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|2"}}},"fontSize":"text-xxs"} -->
 <p class="has-text-xxs-font-size" style="padding-top:var(--wp--preset--spacing--2)">Founder of Moog</p>
@@ -43,16 +46,16 @@
 <!-- /wp:social-links --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"style":{"border":{"radius":"1.5rem","width":"1px"},"spacing":{"padding":{"top":"var:preset|spacing|9","bottom":"var:preset|spacing|9","left":"var:preset|spacing|9","right":"var:preset|spacing|9"}}},"borderColor":"surface-primary","backgroundColor":"surface-secondary","layout":{"type":"constrained"}} -->
-<div class="wp-block-group has-border-color has-surface-primary-border-color has-surface-secondary-background-color has-background" style="border-width:1px;border-radius:1.5rem;padding-top:var(--wp--preset--spacing--9);padding-right:var(--wp--preset--spacing--9);padding-bottom:var(--wp--preset--spacing--9);padding-left:var(--wp--preset--spacing--9)">
+<!-- wp:group {"style":{"border":{"radius":"1.5rem","width":"1px"},"spacing":{"padding":{"top":"var:preset|spacing|9","bottom":"var:preset|spacing|9","left":"var:preset|spacing|9","right":"var:preset|spacing|9"}}},"borderColor":"border-primary","backgroundColor":"surface-secondary","layout":{"type":"constrained"}} -->
+<div class="wp-block-group has-border-color has-border-primary-border-color has-surface-secondary-background-color has-background" style="border-width:1px;border-radius:1.5rem;padding-top:var(--wp--preset--spacing--9);padding-right:var(--wp--preset--spacing--9);padding-bottom:var(--wp--preset--spacing--9);padding-left:var(--wp--preset--spacing--9)">
 
 <!-- wp:image {"width":"96px","height":"96px","scale":"cover","sizeSlug":"full","linkDestination":"none","style":{"border":{"width":"0px","style":"none","radius":"100px"}},"className":"is-resized"} -->
 <figure class="wp-block-image size-full is-resized has-custom-border"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/avatar-person-1.jpg" alt="Team Member" style="border-style:none;border-width:0px;border-radius:100px;object-fit:cover;width:96px;height:96px"/></figure>
 <!-- /wp:image -->
 
-<!-- wp:heading {"level":3,"style":{"spacing":{"padding":{"top":"var:preset|spacing|4"}}},"fontSize":"text-l"} -->
-<h3 class="wp-block-heading has-text-l-font-size" style="padding-top:var(--wp--preset--spacing--4)">Miu Nakamura</h3>
-<!-- /wp:heading -->
+<!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|4"}},"typography":{"fontStyle":"normal","fontWeight":"600"}}} -->
+<p style="padding-top:var(--wp--preset--spacing--4);font-style:normal;font-weight:600">Miu Nakamura</p>
+<!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"padding":{"top":"var:preset|spacing|2"}}},"fontSize":"text-xxs"} -->
 <p class="has-text-xxs-font-size" style="padding-top:var(--wp--preset--spacing--2)">Curator and Artist</p>

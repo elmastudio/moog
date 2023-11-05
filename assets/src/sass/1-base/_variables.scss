@@ -1,0 +1,22 @@
+:root {
+	/* Line Height */
+	--global--line-height-reset: 1;
+
+	/* Border radius */
+	--global--border-radius-4xs: 0.25rem; // 4px
+	--global--border-radius-xxxs: 0.5rem; // 8px
+	--global--border-radius-xxs: 0.75rem; // 12px
+	--global--border-radius-xs: 1rem; // 16px
+	--global--border-radius-s: 1.25rem; // 20px
+	--global--border-radius-m: clamp(1.25rem, 1.1649rem + 0.4188vw, 1.5rem); // 24px
+	--global--border-radius-l: clamp(1.5rem, 1.3298rem + 0.8377vw, 2rem); // 32px
+	--global--border-radius-xl: clamp(2rem, 1.8298rem + 0.8377vw, 2.5rem); // 40px
+	--global--border-radius-xxl: clamp(2rem, 1.6597rem + 1.6754vw, 3rem); // 48px
+	--global--border-radius-3xl: clamp(2.5rem, 1.9895rem + 2.5131vw, 4rem); // 64px
+	--global--border-radius-4xl: clamp(2.5rem, 1.6492rem + 4.1885vw, 5rem); // 80px
+	--global--border-radius-5xl: clamp(3rem, 1.9791rem + 5.0262vw, 6rem); // 96px
+	--global--border-radius-round: 9999px; // 100%
+
+	/* Shadows */
+	--global--shadow-s: 0px 12px 20px rgba(0, 0, 0, 0.08);
+}

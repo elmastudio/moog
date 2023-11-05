@@ -1,0 +1,11 @@
+.taxonomy-post_tag {
+
+	a {
+
+		&:before {
+			content: "\0023";
+			display: inline;
+		}
+
+	}
+}

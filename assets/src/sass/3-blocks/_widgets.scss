@@ -1,0 +1,34 @@
+.entry-content .wp-block-calendar {
+
+	caption {
+		color: var(--wp--preset--color--text-primary);
+		margin-bottom: 1rem;
+		text-align: center;
+	}
+
+	table {
+
+		margin-bottom: 1rem;
+
+		th {
+			background: transparent;
+			text-align: center;
+			font-weight: bold;
+		}
+
+		tbody {
+			color: var(--wp--preset--color--text-secondary);
+			border-right: 1px solid var(--wp--preset--color--border);
+		}
+
+		td#today {
+			background: var(--wp--preset--color--surface-primary);
+		}
+
+		tbody td,
+		th {
+			padding: 16px 8px;
+			border: 1px solid var(--wp--preset--color--border);
+		}
+	}
+}
