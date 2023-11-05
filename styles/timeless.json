@@ -197,8 +197,9 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--text-l)",
-					"letterSpacing":"-1.5px"
+					"fontSize": "var(--wp--preset--font-size--text-xl)",
+					"letterSpacing":"-1.5px",
+					"fontWeight":"700"
 				}
 			}
 		},

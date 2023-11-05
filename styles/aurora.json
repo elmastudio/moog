@@ -197,8 +197,9 @@
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--text-l)",
-					"letterSpacing":"-1.5px"
+					"fontSize": "var(--wp--preset--font-size--text-xl)",
+					"letterSpacing":"-0.4px",
+					"fontWeight":"700"
 				}
 			}
 		},
@@ -206,19 +207,19 @@
 			"h1": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-5-xl)",
-					"letterSpacing":"-3.25px"
+					"letterSpacing":"-0.4px"
 				}
 			},
 			"h2": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-4-xl)",
-					"letterSpacing":"-2.75px"
+					"letterSpacing":"-0.4px"
 				}
 			},
 			"h3": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-xxl)",
-					"letterSpacing":"-1.75px"
+					"letterSpacing":"-0.4px"
 				}
 			},
 			"h4": {
@@ -230,13 +231,13 @@
 			"h5": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-l)",
-					"letterSpacing":"-1px"
+					"letterSpacing":"-0.4px"
 				}
 			},
 			"h6": {
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-m)",
-					"letterSpacing":"-0.5px"
+					"letterSpacing":"-0.4px"
 				}
 			},
 			"heading": {
@@ -247,7 +248,7 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--inter)"
+			"fontFamily": "var(--wp--preset--font-family--dm-sans)"
 		}
 	}
 }
