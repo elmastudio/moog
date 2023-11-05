@@ -78,6 +78,9 @@ Source: https://github.com/cyrealtype/Lora-Cyrillic
 
 == Changelog ==
 
+= 1.0.9 - 2023-11-05 =
+* Enhance: Style variations
+
 = 1.0.8 - 2023-11-04 =
 * Fix: Delete custom Heading font sizes in patterns
 * Fix: Query Loop block settings
