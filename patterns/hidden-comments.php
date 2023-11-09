@@ -40,6 +40,7 @@
 <!-- /wp:columns -->
 <!-- /wp:comment-template -->
 
-<!-- wp:post-comments-form {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|6","top":"var:preset|spacing|6"}}},"textColor":"font-secondary","fontSize":"text-m"} /--></div>
+<!-- wp:post-comments-form {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|6","top":"var:preset|spacing|6"}},"typography":{"letterSpacing":"0px"}},"textColor":"font-secondary","fontSize":"text-m"} /-->
+</div>
 <!-- /wp:comments --></div>
 <!-- /wp:group -->
