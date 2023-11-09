@@ -13,8 +13,8 @@
 <h1 class="wp-block-heading has-text-align-left has-text-align-center pb__6 has-font-primary-color has-text-color has-text-xxxl-font-size has-text-9-xl-font-size" style="padding-bottom:var(--wp--preset--spacing--6);letter-spacing:-12px;line-height:1">404</h1>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"left","style":{"typography":{"lineHeight":"1.2","letterSpacing":"-1.75px"}},"textColor":"font-tertiary","fontSize":"text-xxl"} -->
-<p class="has-text-align-left has-font-tertiary-color has-text-color has-text-xxl-font-size" style="letter-spacing:-1.75px;line-height:1.2">Sorry, page not found :(</p>
+<!-- wp:paragraph {"align":"left","style":{"typography":{"lineHeight":"1.2"}},"textColor":"font-tertiary","fontSize":"text-xl"} -->
+<p class="has-text-align-left has-font-tertiary-color has-text-color has-text-xl-font-size" style="line-height:1.2">Sorry, page not found :(</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:buttons -->
