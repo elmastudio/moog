@@ -198,8 +198,10 @@
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-xl)",
-					"letterSpacing":"-1.5px",
-					"fontWeight":"700"
+					"letterSpacing":"-0.6px",
+					"fontWeight":"700",
+					"fontStyle":"italic",
+					"textTransform":"uppercase"
 				}
 			}
 		},
@@ -250,7 +252,8 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var(--wp--preset--font-family--inter)"
+			"fontFamily": "var(--wp--preset--font-family--work-sans)",
+			"fontWeight": "300"
 		}
 	}
 }

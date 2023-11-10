@@ -199,7 +199,8 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-xl)",
 					"letterSpacing":"-1.5px",
-					"fontWeight":"700"
+					"fontWeight":"700",
+					"fontStyle":"italic"
 				}
 			}
 		},
