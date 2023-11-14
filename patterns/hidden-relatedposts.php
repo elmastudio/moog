@@ -12,7 +12,7 @@
 <div class="wp-block-group has-font-tertiary-color has-text-color">
 
 <!-- wp:heading {"level":4,"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|6"}}},"textColor":"font-primary"} -->
-<h4 class="wp-block-heading has-font-primary-color has-text-color" style="padding-bottom:var(--wp--preset--spacing--6)">Up next</h4>
+<h4 class="wp-block-heading has-font-primary-color has-text-color" style="padding-bottom:var(--wp--preset--spacing--6)">Featured Posts</h4>
 <!-- /wp:heading -->
 
 <!-- wp:separator {"style":{"spacing":{"margin":{"top":"var:preset|spacing|default","bottom":"var:preset|spacing|9"}}},"backgroundColor":"border-secondary","className":"is-style-wide"} -->
