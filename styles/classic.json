@@ -206,13 +206,13 @@
 		"elements": {
 			"h1": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--text-5-xl)",
+					"fontSize": "var(--wp--preset--font-size--text-6-xl)",
 					"letterSpacing":"-3.25px"
 				}
 			},
 			"h2": {
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--text-4-xl)",
+					"fontSize": "var(--wp--preset--font-size--text-5-xl)",
 					"letterSpacing":"-2.75px"
 				}
 			},

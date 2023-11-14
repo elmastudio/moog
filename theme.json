@@ -9,15 +9,12 @@
 			"defaultGradients": false,
 			"defaultPalette": false,
 			"defaultDuotone": false,
-			"duotone": [
-				{
-					"colors": ["#111111", "#ffffff"],
-					"slug": "duotone-1",
-					"name": "Black and white"
-				}
-			],
-			"palette": [
-				{
+			"duotone": [{
+				"colors": ["#111111", "#ffffff"],
+				"slug": "duotone-1",
+				"name": "Black and white"
+			}],
+			"palette": [{
 					"color": "#0B0B0B",
 					"name": "Text Primary",
 					"slug": "text-primary"
@@ -173,8 +170,7 @@
 			"spacingScale": {
 				"steps": 0
 			},
-			"spacingSizes": [
-				{
+			"spacingSizes": [{
 					"name": "4px",
 					"size": "clamp(0.125rem, 0.0746rem + 0.2193vw, 0.25rem)",
 					"slug": "1"
@@ -269,29 +265,25 @@
 		},
 		"typography": {
 			"customFontSize": true,
-			"dropCap": false,
+			"dropCap": true,
 			"fluid": true,
-			"fontFamilies": [
-				{
-					"fontFace": [
-						{
-							"fontFamily": "Inter",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "200 900",
-							"src": [
-								"file:./assets/fonts/inter/Inter-VariableFont.woff2"
-							]
-						}
-					],
+			"fontFamilies": [{
+					"fontFace": [{
+						"fontFamily": "Inter",
+						"fontStretch": "normal",
+						"fontStyle": "normal",
+						"fontWeight": "200 900",
+						"src": [
+							"file:./assets/fonts/inter/Inter-VariableFont.woff2"
+						]
+					}],
 					"fontFamily": "\"Inter\", sans-serif",
 					"name": "Inter",
 					"slug": "inter"
 				},
 
 				{
-					"fontFace": [
-						{
+					"fontFace": [{
 							"fontFamily": "Source Serif Pro",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
@@ -315,8 +307,7 @@
 					"slug": "source-serif-pro"
 				},
 				{
-					"fontFace": [
-						{
+					"fontFace": [{
 							"fontFamily": "Lora",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
@@ -340,8 +331,7 @@
 					"slug": "lora"
 				},
 				{
-					"fontFace": [
-						{
+					"fontFace": [{
 							"fontFamily": "Work Sans",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
@@ -365,8 +355,7 @@
 					"slug": "work-sans"
 				},
 				{
-					"fontFace": [
-						{
+					"fontFace": [{
 							"fontFamily": "Libre Franklin",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
@@ -390,24 +379,21 @@
 					"slug": "libre-franklin"
 				},
 				{
-					"fontFace": [
-						{
-							"fontFamily": "Urbanist",
-							"fontStretch": "normal",
-							"fontStyle": "normal",
-							"fontWeight": "200 900",
-							"src": [
-								"file:./assets/fonts/urbanist/Urbanist-VariableFont.woff2"
-							]
-						}
-					],
+					"fontFace": [{
+						"fontFamily": "Urbanist",
+						"fontStretch": "normal",
+						"fontStyle": "normal",
+						"fontWeight": "200 900",
+						"src": [
+							"file:./assets/fonts/urbanist/Urbanist-VariableFont.woff2"
+						]
+					}],
 					"fontFamily": "Urbanist",
 					"name": "Urbanist",
 					"slug": "urbanist"
 				},
 				{
-					"fontFace": [
-						{
+					"fontFace": [{
 							"fontFamily": "Fraunces",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
@@ -431,8 +417,7 @@
 					"slug": "fraunces"
 				},
 				{
-					"fontFace": [
-						{
+					"fontFace": [{
 							"fontFamily": "Ibarra Real Nova",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
@@ -456,8 +441,7 @@
 					"slug": "ibarra-real-nova"
 				},
 				{
-					"fontFace": [
-						{
+					"fontFace": [{
 							"fontFamily": "Open Sans",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
@@ -481,8 +465,7 @@
 					"slug": "open-sans"
 				},
 				{
-					"fontFace": [
-						{
+					"fontFace": [{
 							"fontFamily": "DM Sans",
 							"fontStretch": "normal",
 							"fontStyle": "normal",
@@ -552,8 +535,7 @@
 					"slug": "monospace"
 				}
 			],
-			"fontSizes": [
-				{
+			"fontSizes": [{
 					"fluid": false,
 					"name": "3XS",
 					"size": "0.75rem",
@@ -680,6 +662,12 @@
 	},
 	"styles": {
 		"blocks": {
+			"core/avatar": {
+				"border": {
+					"radius": "999px"
+				},
+				"css": ".wp-block-avatar img {height: auto;max-width: 100%;}"
+			},
 			"core/button": {
 				"spacing": {
 					"padding": {
@@ -740,7 +728,7 @@
 					}
 				},
 				"variations": {
-					"plain": {	
+					"plain": {
 						"typography": {
 							"fontSize": "var(--wp--preset--font-size--text-xxl)",
 							"lineHeight": "1.2"
@@ -775,8 +763,28 @@
 				},
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-xl)",
-					"letterSpacing":"-1.5px",
-					"fontWeight":"700"
+					"letterSpacing": "-1.5px",
+					"fontWeight": "700"
+				}
+			},
+			"core/gallery": {
+				"spacing": {
+					"blockGap": {
+						"left": "var(--wp--preset--spacing--6)",
+						"top": "var(--wp--preset--spacing--6)"
+					}
+				}
+			},
+			"core/list": {
+				"spacing": {
+					"padding": {
+						"left": "var(--wp--preset--spacing--5)"
+					}
+				}
+			},
+			"core/footnotes": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--text-xs)"
 				}
 			}
 		},
@@ -788,7 +796,7 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-6-xl)",
 					"lineHeight": "var(--wp--custom--line-height--heading)",
-					"letterSpacing":"-3.25px"
+					"letterSpacing": "-3.25px"
 				}
 			},
 			"h2": {
@@ -798,7 +806,7 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-5-xl)",
 					"lineHeight": "var(--wp--custom--line-height--heading)",
-					"letterSpacing":"-2.75px"
+					"letterSpacing": "-2.75px"
 				}
 			},
 			"h3": {
@@ -806,9 +814,9 @@
 					"text": "var(--wp--preset--color--text-primary)"
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--text-4-xl)",
+					"fontSize": "var(--wp--preset--font-size--text-xxl)",
 					"lineHeight": "var(--wp--custom--line-height--heading)",
-					"letterSpacing":"-1.75px"
+					"letterSpacing": "-1.75px"
 				}
 			},
 			"h4": {
@@ -818,7 +826,7 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-xl)",
 					"lineHeight": "var(--wp--custom--line-height--heading)",
-					"letterSpacing":"-1.5px"
+					"letterSpacing": "-1.5px"
 				}
 			},
 			"h5": {
@@ -828,7 +836,7 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-l)",
 					"lineHeight": "var(--wp--custom--line-height--heading)",
-					"letterSpacing":"-1px"
+					"letterSpacing": "-1px"
 				}
 			},
 			"h6": {
@@ -838,7 +846,7 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-m)",
 					"lineHeight": "var(--wp--custom--line-height--heading)",
-					"letterSpacing":"-0.5px"
+					"letterSpacing": "-0.5px"
 				}
 			},
 			"heading": {
@@ -868,8 +876,7 @@
 			"text": "var(--wp--preset--color--text-secondary)"
 		}
 	},
-	"templateParts": [
-		{
+	"templateParts": [{
 			"area": "header",
 			"name": "header",
 			"title": "Header"
@@ -880,8 +887,7 @@
 			"title": "Footer"
 		}
 	],
-	"customTemplates": [
-		{
+	"customTemplates": [{
 			"name": "blank",
 			"postTypes": ["page"],
 			"title": "Page Blank"
