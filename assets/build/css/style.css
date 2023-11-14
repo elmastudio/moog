@@ -87,6 +87,24 @@ h1.site-title, .site-title, h2.entry-title {
   font-size: var(--wp--preset--font-size--text-xxxl) !important;
 }
 
+.fn {
+  font-size: 80%;
+  text-decoration: none;
+  position: relative;
+}
+
+.fn:before, .fn:after {
+  vertical-align: baseline;
+}
+
+.fn:before {
+  content: "[";
+}
+
+.fn:after {
+  content: "]";
+}
+
 embed, iframe, object {
   max-width: 100%;
 }
@@ -757,8 +775,8 @@ input[type="submit"]:hover, button[type="submit"]:hover, .primary .wp-block-butt
   min-height: 2.5rem;
 }
 
-ul, ol {
-  padding-left: var(--wp--preset--spacing--5);
+.wp-block-post-content li:not(:last-child) {
+  margin-bottom: var(--wp--preset--spacing--3);
 }
 
 table {
