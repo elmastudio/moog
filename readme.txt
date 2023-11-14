@@ -78,6 +78,13 @@ Source: https://github.com/cyrealtype/Lora-Cyrillic
 
 == Changelog ==
 
+= 1.0.11 - 2023-11-14 =
+* Fix: Single Post Template Wide content
+* Enhance: 404 pattern
+* Enhance: Comments pattern
+* Enhance: Related posts pattern
+* Enhance: Style variations
+
 = 1.0.10 - 2023-11-06 =
 * Enhance: Style variations
 
