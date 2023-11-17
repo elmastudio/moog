@@ -544,6 +544,11 @@ h1:where(:not([class*="has-text-decoration"])) a, h2:where(:not([class*="has-tex
   text-decoration: none;
 }
 
+.wp-block-post-title a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
 .author-avatar .author-avatar-link, .author-avatar {
   display: block;
 }

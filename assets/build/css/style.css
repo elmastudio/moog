@@ -544,6 +544,11 @@ h1:where(:not([class*="has-text-decoration"])) a, h2:where(:not([class*="has-tex
   text-decoration: none;
 }
 
+.wp-block-post-title a:hover {
+  color: inherit;
+  text-decoration: underline;
+}
+
 input[type="button"], input[type="submit"], button[type="submit"], .wp-block-search__button {
   line-height: var(--global--line-height-reset);
   cursor: pointer;
