@@ -3,7 +3,7 @@ Contributors: elmastudio, manuelesposito
 Tags: blog, block-styles, grid-layout, one-column, two-columns, three-columns, four-columns, featured-images, full-width-template, custom-colors, custom-menu, custom-logo, editor-style, sticky-post, translation-ready, threaded-comments, wide-blocks, full-site-editing, template-editing, style-variations
 Requires at least: 6.1
 Tested up to: WordPress 6.4
-Requires PHP: 7.0
+Requires PHP: 7.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
