@@ -786,6 +786,31 @@
 				"typography": {
 					"fontSize": "var(--wp--preset--font-size--text-xs)"
 				}
+			},
+			"core/post-excerpt": {
+				"typography": {
+					"fontWeight": "600"
+				}
+			},
+			"core/post-date": {
+				"typography": {
+					"fontWeight": "600"
+				}
+			},
+			"core/post-author": {
+				"typography": {
+					"fontWeight": "600"
+				}
+			},
+			"core/post-terms": {
+				"typography": {
+					"fontWeight": "600"
+				}
+			},
+			"core/comment-author-name": {
+				"typography": {
+					"fontWeight": "600"
+				}
 			}
 		},
 		"elements": {
