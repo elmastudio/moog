@@ -6,8 +6,8 @@
  */
 ?>
 
-<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|9","bottom":"var:preset|spacing|9"},"blockGap":"0"}},"className":"btn-round form-rounded","layout":{"type":"constrained"}} -->
-<div class="wp-block-group btn-round form-rounded" style="padding-top:var(--wp--preset--spacing--9);padding-bottom:var(--wp--preset--spacing--9)">
+<!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|9","bottom":"var:preset|spacing|12"},"blockGap":"0"}},"className":"btn-round form-rounded","layout":{"type":"constrained"}} -->
+<div class="wp-block-group btn-round form-rounded" style="padding-top:var(--wp--preset--spacing--9);padding-bottom:var(--wp--preset--spacing--12)">
 <!-- wp:comments {"textColor":"font-secondary","className":"wp-block-comments-query-loop "} -->
 <div class="wp-block-comments wp-block-comments-query-loop has-font-secondary-color has-text-color">
 <!-- wp:heading {"level":4,"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|6"}}},"textColor":"font-primary"} -->
@@ -24,7 +24,7 @@
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"bottom":"var:preset|spacing|1"},"blockGap":"var:preset|spacing|3"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"left"}} -->
 <div class="wp-block-group" style="padding-bottom:var(--wp--preset--spacing--1)"><!-- wp:avatar {"size":24,"style":{"border":{"radius":"100px","width":"1px"}},"borderColor":"border-secondary"} /-->
 
-<!-- wp:comment-author-name {"style":{"typography":{"fontStyle":"normal","fontWeight":"600"},"elements":{"link":{"color":{"text":"var:preset|color|font-secondary"}}}},"textColor":"font-secondary","fontSize":"text-xxs"} /-->
+<!-- wp:comment-author-name {"style":{"typography":{"fontStyle":"normal"},"elements":{"link":{"color":{"text":"var:preset|color|font-secondary"}}}},"textColor":"font-secondary","fontSize":"text-xxs"} /-->
 
 <!-- wp:comment-date {"style":{"elements":{"link":{"color":{"text":"var:preset|color|font-secondary"}}}},"textColor":"font-secondary","fontSize":"text-xxs"} /-->
 
