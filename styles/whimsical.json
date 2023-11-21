@@ -201,6 +201,31 @@
 					"letterSpacing":"-1.5px",
 					"fontWeight":"700"
 				}
+			},
+			"core/post-excerpt": {
+				"typography": {
+					"fontWeight": "400"
+				}
+			},
+			"core/post-date": {
+				"typography": {
+					"fontWeight": "400"
+				}
+			},
+			"core/post-author": {
+				"typography": {
+					"fontWeight": "400"
+				}
+			},
+			"core/post-terms": {
+				"typography": {
+					"fontWeight": "400"
+				}
+			},
+			"core/comment-author-name": {
+				"typography": {
+					"fontWeight": "400"
+				}
 			}
 		},
 		"elements": {
