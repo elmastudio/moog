@@ -78,10 +78,11 @@ Source: https://github.com/cyrealtype/Lora-Cyrillic
 
 == Changelog ==
 
-= 1.0.12 - 2023-11-18 =
-* Enhance: Single Post previous and next post navigation
+= 1.1.0 - 2023-11-21 =
+* New: Post navigation in Single Template
 * Enhance: Font weights via theme json for post-excerpt, post-terms, post-date, post-author, comment-author-name blocks
-* Fix: Delete font weight settings in patterns
+* Fix: Delete font weight settings inside patterns
+* Fix: Rename Related Posts pattern to posts-3columns and unhide it
 
 = 1.0.11 - 2023-11-14 =
 * Fix: Single Post Template Wide content
