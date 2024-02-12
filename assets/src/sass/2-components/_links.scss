@@ -1,0 +1,43 @@
+a {
+	transition: all .1s ease;
+	color: inherit;
+	text-decoration-line: underline;
+
+	&:hover,
+	&:focus {
+		color: var(--wp--preset--color--text-tertiary);
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.wp-block-navigation,
+.wp-block-post-excerpt__more-text,
+.wp-block-post-author__name,
+.wp-block-post-terms,
+.wp-block-comment-date,
+.wp-block-comment-edit-link,
+.wp-block-comment-reply-link,
+.wp-block-comment-author-name,
+.footer-credit,
+.wp-block-post-navigation-link {
+
+	&:where(:not([class*=has-text-decoration])) {
+		a {
+			text-decoration: none;
+		}
+	}
+}
+
+.wp-block-post-title {
+
+	a:hover {
+		text-decoration: underline;
+		color: inherit;
+	}
+
+}

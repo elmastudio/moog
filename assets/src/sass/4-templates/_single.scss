@@ -1,0 +1,25 @@
+.single-post {
+
+	.wp-block-post-terms {
+		display: flex;
+		flex-wrap: wrap;
+		gap: var(--wp--preset--spacing--3);
+
+		&__separator {
+			display: none;
+		}
+	}
+}
+
+/* Comments Reply */
+.comment-form-cookies-consent {
+	position: relative;
+
+	#wp-comment-cookies-consent {
+		margin-top: 0 !important;
+	}
+}
+
+#cancel-comment-reply-li {
+	font-weight: normal !important;
+}

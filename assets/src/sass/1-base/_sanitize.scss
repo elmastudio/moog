@@ -1,0 +1,16 @@
+*,
+::before,
+::after {
+	box-sizing: inherit;
+}
+
+* {
+	font-size: inherit;
+	line-height: inherit;
+}
+
+::before,
+::after {
+	text-decoration: inherit;
+	vertical-align: inherit;
+}

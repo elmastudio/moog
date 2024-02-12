@@ -1,0 +1,254 @@
+{
+	"version": 2,
+	"title": "Urban",
+	"settings": {
+		"color": {
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "Text Primary",
+					"slug": "text-primary"
+				},
+				{
+					"color": "#EBEBEB",
+					"name": "Text Secondary",
+					"slug": "text-secondary"
+				},
+				{
+					"color": "rgba(255, 255, 255, 0.4)",
+					"name": "Text Tertiary",
+					"slug": "text-tertiary"
+				},
+				{
+					"color": "#B5DEFF",
+					"name": "Text Brand",
+					"slug": "text-brand"
+				},
+				{
+					"color": "#F75C46",
+					"name": "Text Accent",
+					"slug": "text-accent"
+				},
+				{
+					"color": "#002754",
+					"name": "Text on",
+					"slug": "text-on"
+				},
+				{
+					"color": "#292929",
+					"name": "Surface Primary",
+					"slug": "surface-primary"
+				},
+				{
+					"color": "#454545",
+					"name": "Surface Secondary",
+					"slug": "surface-secondary"
+				},
+				{
+					"color": "#78BBFA",
+					"name": "Surface Brand Primary",
+					"slug": "surface-brand-primary"
+				},
+				{
+					"color": "#96CEFD",
+					"name": "Surface Brand Secondary",
+					"slug": "surface-brand-secondary"
+				},
+				{
+					"color": "#F75C46",
+					"name": "Surface Accent",
+					"slug": "surface-accent"
+				},
+				{
+					"color": "rgba(255, 255, 255, 0.05)",
+					"name": "Surface Input",
+					"slug": "surface-input"
+				},
+				{
+					"color": "#292929",
+					"name": "Border Primary",
+					"slug": "border-primary"
+				},
+				{
+					"color": "#696969",
+					"name": "Border Secondary",
+					"slug": "border-secondary"
+				},
+				{
+					"color": "rgba(255, 255, 255, 0.1)",
+					"name": "Border Input",
+					"slug": "border-input"
+				},
+                {
+					"color": "#0B0B0B",
+					"name": "Variant Text Primary",
+					"slug": "variant-text-primary"
+				},
+				{
+					"color": "#454545",
+					"name": "Variant Text Secondary",
+					"slug": "variant-text-secondary"
+				},
+				{
+					"color": "rgba(0, 0, 0, 0.4)",
+					"name": "Variant Text Tertiary",
+					"slug": "variant-text-tertiary"
+				},
+				{
+					"color": "#0265DC",
+					"name": "Variant Text Brand",
+					"slug": "variant-text-brand"
+				},
+				{
+					"color": "#EA3829",
+					"name": "Variant Text Accent",
+					"slug": "variant-text-accent"
+				},
+				{
+					"color": "#003571",
+					"name": "Variant Text on",
+					"slug": "variant-text-on"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Variant Surface Primary",
+					"slug": "variant-surface-primary"
+				},
+				{
+					"color": "#EBEBEB",
+					"name": "Variant Surface Secondary",
+					"slug": "variant-surface-secondary"
+				},
+				{
+					"color": "#59A7F6",
+					"name": "Variant Surface Brand Primary",
+					"slug": "variant-surface-brand-primary"
+				},
+				{
+					"color": "#3892F3",
+					"name": "Variant Surface Brand Secondary",
+					"slug": "variant-surface-brand-secondary"
+				},
+				{
+					"color": "#EA3829",
+					"name": "Variant Surface Accent",
+					"slug": "variant-surface-accent"
+				},
+				{
+					"color": "rgba(0, 0, 0, 0.05)",
+					"name": "Variant Surface Input",
+					"slug": "variant-surface-input"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Variant Border Primary",
+					"slug": "variant-border-primary"
+				},
+				{
+					"color": "#B2B2B2",
+					"name": "Variant Border Secondary",
+					"slug": "variant-border-secondary"
+				},
+				{
+					"color": "rgba(0, 0, 0, 0.10)",
+					"name": "Variant Border Input",
+					"slug": "variant-border-input"
+				}
+			]
+		},
+		"custom": {
+			"line-height": {
+				"body": 1.3,
+				"heading": 1.1
+			}
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/column": {
+				"spacing": {
+					"blockGap": "1.5rem"
+				}
+			},
+			"core/post-content": {
+				"spacing": {
+					"blockGap": "var(--wp--preset--spacing--9)"
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--text-m)"
+				}
+			},
+			"core/preformatted": {
+				"color": {
+					"background": "var(--wp--preset--color--code-background)",
+					"text": "var(--wp--preset--color--code-color)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--monospace)",
+					"fontSize": "var(--wp--preset--font-size--text-s)"
+				}
+			},
+			"core/site-title": {
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						}
+					}
+				},
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--text-xl)",
+					"letterSpacing":"-1.5px",
+					"fontWeight":"700"
+				}
+			}
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--text-5-xl)",
+					"letterSpacing":"-3.25px"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--text-4-xl)",
+					"letterSpacing":"-2.75px"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--text-xxl)",
+					"letterSpacing":"-1.75px"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--text-xl)",
+					"letterSpacing":"-1.5px"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--text-l)",
+					"letterSpacing":"-1px"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--text-m)",
+					"letterSpacing":"-0.5px"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--inter)",
+					"fontWeight": "600"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--inter)"
+		}
+	}
+}
