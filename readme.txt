@@ -80,7 +80,8 @@ Source: https://github.com/cyrealtype/Lora-Cyrillic
 
 = 1.1.1 - 2024-01-12 =
 * Fix: Theme homepage link
-* Enhance: Delete unneeded variant style colors.
+* Fix: Delete unneeded variant style colors.
+* Enhance: Update readme.
 
 = 1.1.0 - 2023-11-21 =
 * New: Post navigation in Single Template
