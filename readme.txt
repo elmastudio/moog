@@ -15,7 +15,7 @@ You can find more information and helpful resources about this theme on https://
 
 == Copyright ==
 
-Moog Theme, (C) 2023 Elmastudio Ltd.
+Moog Theme, (C) 2024 Elmastudio Ltd.
 This theme is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
@@ -77,6 +77,11 @@ Source: https://github.com/cyrealtype/Lora-Cyrillic
 
 
 == Changelog ==
+
+= 1.1.1 - 2024-02-14 =
+* Fix: Theme homepage link.
+* Fix: Delete variant colors in styles color palettes.
+* Enhance: Update readme.
 
 = 1.1.0 - 2023-11-21 =
 * New: Post navigation in Single Template
