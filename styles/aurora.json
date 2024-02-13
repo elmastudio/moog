@@ -78,36 +78,6 @@
 					"color": "rgba(255, 255, 255, 0.1)",
 					"name": "Border Input",
 					"slug": "border-input"
-				},
-                {
-					"color": "#08080B",
-					"name": "Variant Text Primary",
-					"slug": "variant-text-primary"
-				},
-				{
-					"color": "#363645",
-					"name": "Variant Text Secondary",
-					"slug": "variant-text-secondary"
-				},
-				{
-					"color": "rgba(0, 0, 0, 0.4)",
-					"name": "Variant Text Tertiary",
-					"slug": "variant-text-tertiary"
-				},
-				{
-					"color": "#B40000",
-					"name": "Variant Text Brand",
-					"slug": "variant-text-brand"
-				},
-				{
-					"color": "#5258E4",
-					"name": "Variant Text Accent",
-					"slug": "variant-text-accent"
-				},
-				{
-					"color": "#740000",
-					"name": "Variant Text on",
-					"slug": "variant-text-on"
 				}
 			]
 		},
