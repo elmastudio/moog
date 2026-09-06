@@ -6,3 +6,7 @@ With Moog, you have the canvas to create a blog that radiates your personality a
 
 ## Moog Theme Introduction Video
 [![Moog Introdution video](https://i9.ytimg.com/vi_webp/mSE28aUkjgU/maxresdefault.webp?v=655d6fba&sqp=CODMr64G&rs=AOn4CLBRiXUI6dlaPnTT-Nq6xhexGXQpiA)](https://youtu.be/mSE28aUkjgU?si=iN-X0RTVgZZRu5FV)
+
+## Updates
+
+Install the Git Updater plugin (https://git-updater.com/) and WordPress will offer new versions of this theme as regular theme updates, straight from GitHub.

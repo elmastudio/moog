@@ -76,6 +76,10 @@ License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://github.com/cyrealtype/Lora-Cyrillic
 
 
+== Updates ==
+
+Install the Git Updater plugin (https://git-updater.com/) and WordPress will offer new versions of this theme as regular theme updates, straight from GitHub.
+
 == Changelog ==
 
 = 1.1.1 - 2024-02-14 =
